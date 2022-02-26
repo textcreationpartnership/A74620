@@ -1,0 +1,714 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The camp at Gilgal. Or, A view of the Kings army, and spirituall provision made for it.</title>
+            <author>Ferne, H. (Henry), 1602-1662.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1643</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 84 KB of XML-encoded text transcribed from 31 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2013-12">2013-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A74620</idno>
+            <idno type="STC">Wing F788</idno>
+            <idno type="STC">Thomason E1178_2</idno>
+            <idno type="STC">ESTC R208093</idno>
+            <idno type="EEBO-CITATION">99867088</idno>
+            <idno type="PROQUEST">99867088</idno>
+            <idno type="VID">119378</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A74620)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 119378)</note>
+            <note>Images scanned from microfilm: (Thomason Tracts ; 167:E1178[2])</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The camp at Gilgal. Or, A view of the Kings army, and spirituall provision made for it.</title>
+                  <author>Ferne, H. (Henry), 1602-1662.</author>
+               </titleStmt>
+               <extent>[2], 58 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by Leonard Lichfield, printer to the Vniversity,</publisher>
+                  <pubPlace>Oxford :</pubPlace>
+                  <date>1643.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Anonymous. By Henry Ferne, later Bishop of Chester (cf. Thomason catalogue).</note>
+                  <note>Annotation on Thomason copy: "by Dr. ffierne; "about 22 June.".</note>
+                  <note>Reproduction of the original in the British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>England and Wales. --  Army --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2012-08</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2012-08</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2012-10</date>
+            <label>Simon Charles</label>Sampled and proofread</change>
+         <change>
+            <date>2012-10</date>
+            <label>Simon Charles</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2013-02</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:119378:1" rendition="simple:additions"/>
+            <p>The Camp at Gilgal. OR, A VIEW OF THE Kings Army, and ſpirituall proviſion made for it.</p>
+            <q>
+               <p>And <hi>Ioſuah</hi> made ſharpe knives and cir<g ref="char:EOLhyphen"/>cumciſed the Children of Jſrael, and they abode in the Campe till they were whole. And the Lord ſaid, this day have J rolled away the reproach of E<g ref="char:EOLhyphen"/>gypt from off you, wherefore the place is called <hi>Gilgal.</hi>
+               </p>
+               <bibl>Ioſ. 5.3,8,9.</bibl>
+            </q>
+            <q>
+               <p>The Lord thy God walketh in the midſt of thy Camp, therefore ſhall thy Camp be holy, that he ſee no unclean thing in thee, and turn away from thee.</p>
+               <bibl>Deut. 23.14.</bibl>
+            </q>
+            <p>OXFORD, Printed by <hi>Leonard Lichfield,</hi> Printer <hi>to the <g ref="char:V">Ʋ</g>niverſity.</hi> 1643.</p>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb facs="tcp:119378:2"/>
+            <pb n="1" facs="tcp:119378:2"/>
+            <head>For the Kings Souldiers.</head>
+            <div type="introduction">
+               <p>
+                  <seg rend="decorInit">W</seg>Hen I look upon the <hi>Jſraelites</hi> in their Camp at <hi>Gilgal,</hi> and how they were brought thi<g ref="char:EOLhyphen"/>ther, I cannot but think of the condition we are all in, and re<g ref="char:EOLhyphen"/>flect eſpecially upon you that belong to the Royall Camp.</p>
+               <p>Thoſe <hi>Jſraelites</hi> having worn out the long troubles of the Wilderneſſe, and paſſed through <hi>Jordan</hi> on dry ground, doe look back, firſt upon the way through which the Lord had wonderful<g ref="char:EOLhyphen"/>ly brought them, and then upon themſelves and that uncircumciſion that was ſtill upon them, as if they had ſtill belonged to <hi>Aegypt</hi> which they had forſaken.</p>
+               <p>What doe they then? Being now upon the borders of their enemies, they forme their Camp in <hi>Gilgal,</hi> and there they ſet up twelve ſtones ta<g ref="char:EOLhyphen"/>ken out of the paſſage of <hi>Jordan, for a Memo<g ref="char:EOLhyphen"/>riall to the Children of Iſraell for ever,</hi> that they might know what way the Lord brought their
+<pb n="2" facs="tcp:119378:3"/> forefathers into that Land, <hi>Ioſ.</hi> 4. and then, before they goe out thence to any Battell, <hi>the reproach of Egypt is rolled away from off them, Ioſ.</hi> 5.9. that is they are all called to Circumciſion, which was a mark that put a difference between them and <hi>E<g ref="char:EOLhyphen"/>gyptians,</hi> and was a ſigne of new affections now to be entertained, to the putting away of that hardneſſe of heart, that had accompanied their fathers from their coming out of <hi>Egypt.</hi>
+               </p>
+               <p>And now you muſt give me leave upon the like occaſions to invite you to the like conſidera<g ref="char:EOLhyphen"/>tions; you have worne out the trouble of a long Winter, and paſſed through many dangers, it is now <hi>the time that Kings goe forth to Battell,</hi> your Camp is formed, and you ready to be drawn out againſt the Enemy; what then remains but that before you goe out thence, you look back upon the way you have been hitherto led by, and out of the ſeverall paſſages of your deliverances, as out of the midſt of <hi>Iordan,</hi> take you ſeverall re<g ref="char:EOLhyphen"/>membrances of Gods power and Mercy, ſet them up in a well grounded Memory, and you will find the uſe and benefit of them ever af<g ref="char:EOLhyphen"/>ter: then think of <hi>rolling away the reproach of Egypt from off you.</hi>
+               </p>
+               <p>The <hi>Reproach of Egypt</hi> is that uncircumciſion, irreligion and profaneneſſe of life and converſati<g ref="char:EOLhyphen"/>on, which (beſides the black note ſet upon the Souldiers Profeſſion by the licentiouſnes of many
+<pb n="3" facs="tcp:119378:3"/> in it) is laid upon you by thoſe of the adverſe par<g ref="char:EOLhyphen"/>ty; how juſtly you know beſt: I doe not ſpeak this to reprove you for, or dishearten you in this courſe of life you are now entred upon in His Ma<g ref="char:EOLhyphen"/>jeſties ſervice, but doe prayſe you rather, the pro<g ref="char:EOLhyphen"/>feſſion it ſelfe being honourable, and this particu<g ref="char:EOLhyphen"/>lar ſervice moſt juſt and commendable.</p>
+               <p>Nor doe I ſpeak it any wayes to clear your ad<g ref="char:EOLhyphen"/>verſaries, who as they have Art enough to belye you, and malice enough to make you and us all <hi>Egyptians,</hi> that they may ſpoyle us more fairely; ſo indeed they have upon them (and it will ſtick to them never to be <hi>rolled away</hi>) <hi>the reproach,</hi> not only of evill lives and converſations, but alſo of a moſt lewde cauſe.</p>
+               <p>Yet this you muſt give me leave to ſay, and it cannot be denyed, there is in too many of you too much that ſavours of the manners of <hi>Egypt,</hi> and is <hi>Reproachfull</hi> in <hi>Iſraelites,</hi> in Chriſtians; it con<g ref="char:EOLhyphen"/>cernes you therefore to think of <hi>Rolling away the reproach from off you,</hi> of entertaining new thoughts of life and converſation.</p>
+               <p>The Lord did promiſe his people that he would <hi>ſend Hornets before them to drive out their enimies, Exod.</hi> 23.28. and <hi>Ioſhua</hi> tells them the Lord had performed it. <hi>Ioſ.</hi> 24.12. and we may ſee the Hornet ſeizing on them in this Chap. 5. v. 1. the fear and terror of the children of <hi>Iſrael</hi> fell upon the <hi>Amorites,</hi> and their heart melted.</p>
+               <pb n="4" facs="tcp:119378:4"/>
+               <p>And without doubt the Hornet of Conſcience will at length ſeize upon the enimies of that juſt cauſe which you maintain, and will drive them out; but before that can come to paſſe, the ſting of ſin muſt firſt be felt in yours and every mans con<g ref="char:EOLhyphen"/>ſcience that deſires and expects a happy iſſue of theſe troubles; and unto this ſting or prick of Conſcience for ſinne, you muſt adde the knife of Circumciſion.</p>
+               <p>It is for that purpoſe that this <hi>Monitory,</hi> theſe inſtructions were provided like the <hi>ſharpe knives</hi> (which <hi>Ioſhuah</hi> is ſaid to make, v. 3.) to pare a<g ref="char:EOLhyphen"/>way from you what is inordinate in it ſelfe, and hurtfull and <hi>reproachfull</hi> both to you and to the Cauſe, you have undertaken to defend.</p>
+               <p>It was for the like purpoſe that the people came out to the Baptiſme of <hi>John,</hi> for Baptiſme is anſwerable to Circumciſion; and among them, that ſpecially ſtood in need of clenſing and of direction for a new life, there came the Publi<g ref="char:EOLhyphen"/>cans (a profeſſion and imployment that had as <hi>heavy reproach</hi> upon it as any) and ſaid unto him <hi>what ſhall we doe? Luk.</hi> 3.12. After them came the Souldiers likewiſe and demanded of him, <hi>What ſhall we doe?</hi> v. 14.</p>
+               <p>This was a very commendable readineſſe, and you cannot but think you are concerned in the ex<g ref="char:EOLhyphen"/>ample, and bound accordingly to ſeek inſtruction, at leaſt to receive it being offered; for theſe were
+<pb n="5" facs="tcp:119378:4"/> men of your profeſſion, and what their duty was either in the enquiry, or in the performance of what was taught them, the ſame belongs to you.</p>
+               <p>The Anſwer they received <hi>(Doe violence to no man, neither accuſe any falſely, and be content with your wages)</hi> doth tell you thus much in ge<g ref="char:EOLhyphen"/>nerall, that a reſtraint is caſt upon you; you may not doe or ſpeak what you liſt, but muſt make a Conſcience of your words and Actions.</p>
+               <p>What ſucceſſe it had we doe not find expreſſed, ſo neither do we find that they returned any re<g ref="char:EOLhyphen"/>proachfull anſwer for the ſtrict leſſon he gave them; and I hope this <hi>Monitory</hi> will be as kindly entertained by you, though it ſhould ſometimes prove as ſharpe as the <hi>Circumciſers</hi> knife or the <hi>Baptists</hi> language: We ſee the whole multitude that came to heare, ſtruck with an awfull reve<g ref="char:EOLhyphen"/>rence of that powerfull and home-ſpeaking Prea<g ref="char:EOLhyphen"/>cher, <hi>they all muſed in their hearts whether he was the Chriſt or not,</hi> v. 15. and we read how after<g ref="char:EOLhyphen"/>ward many Publicans came to our Saviour, unto whom <hi>Iohn</hi> poynted them the way, and we meet with one good <hi>Centurion,</hi> and under him many conſcionable and obedient Souldiers, <hi>Luk.</hi> 7.8.</p>
+               <p>For your better and more particular direction you muſt know and conſider under whoſe com<g ref="char:EOLhyphen"/>mand you are, and what is your Duty: if you be askt under whom you ſerve, you will preſently name your King, and your Captain or Colonel,
+<pb n="6" facs="tcp:119378:5"/> and can readily give account of the duties you are uſually put upon; and when you ſpeak any thing that concernes conſcience, it is commonly this, <hi>you have a good cauſe.</hi>
+               </p>
+               <p>All this is true and juſt; but this I muſt tell you, notwithſtanding the goodneſſe of your Cauſe, and the ſtrictneſſe of your obedience to your ſuperi<g ref="char:EOLhyphen"/>ors, if you would have your King and your ſelves to proſper, you muſt alſo and chiefly know him that has the higheſt command over you, <hi>The great Generall of the Armies of the Creatures, the King of Kings and Lord of Hoaſts that walketh in the midſt of the Camp,</hi> and cannot endure to ſee <hi>any unclean thing amongſt you,</hi> as he tells you <hi>Deut.</hi> 23.14.</p>
+               <p>If you would have him <hi>deliver you, and give up your enimies before you,</hi> (as it is there promi<g ref="char:EOLhyphen"/>ſed) you muſt approve your ſelves to him; for which there are two things conſiderable, your <hi>Cauſe</hi> and your <hi>Converſation.</hi> A good Conſci<g ref="char:EOLhyphen"/>ence in regard of both theſe doth aſſure a bleſſing from God, and addes true confidence to a Souldi<g ref="char:EOLhyphen"/>er in all his enterprizes.</p>
+            </div>
+            <div type="section">
+               <head>THE CAVSE.</head>
+               <p>THe Lord is no Patron of an unjuſt cauſe, but will plead a juſt one, as <hi>David</hi> often deſires him to doe in his <hi>Pſalmes,</hi> uſually alleadging the
+<pb n="7" facs="tcp:119378:5"/> righteouſneſſe of his Cauſe, as a prevailing argu<g ref="char:EOLhyphen"/>ment to move him to undertake it. How comes it to paſſe then that we ſee ſometimes an unrigh<g ref="char:EOLhyphen"/>teous Cauſe to proſper? We never ſee it finally proſpering, but God in his juſtice ſuffers it a while to prevaile for the puniſhment and correction of others, that have not hearts and converſations anſwerable to the uprightneſſe of their cauſe: yet in the end the unjuſt cauſe will bring deſtruction upon the undertakers, that a man ſhall ſay, <hi>Doubtleſſe there is a God that judgeth the Earth, Pſal.</hi> 58.10.</p>
+               <p>We may underſtand the Lords counſell and purpoſe in this particular, <hi>Eſa</hi> 10. <hi>v.</hi> 5, 6, 7, 12. He there uſeth the <hi>Aſſyrian</hi> (whoſe meaning was nothing elſe but to ſpoyle and oppreſſe) <hi>as the rod of his anger againſt the people of his wrath;</hi> but when he <hi>has performed his whole work upon Mount Sion</hi> (that is throughly humbled and cor<g ref="char:EOLhyphen"/>rected his people) then will he <hi>puniſh the ſtout heart and high looks of the Aſſyrian.</hi>
+               </p>
+               <p>The <hi>Benjamites</hi> are very obſtinate in defen<g ref="char:EOLhyphen"/>ding a Lewd Cauſe, and doe proſper in two Bat<g ref="char:EOLhyphen"/>tels, <hi>Judg.</hi> 20. but in the third (when the <hi>Iſraelites</hi> had truly humbled themſelves) <hi>Benjamin</hi> is cut off with an utter deſtruction. What your Cauſe is, and what you fight for, that you may under<g ref="char:EOLhyphen"/>ſtand and remember it the better, it is expreſſed upon the peices of Silver, which you receive in
+<pb n="8" facs="tcp:119378:6"/> pay; looke upon them, whoſe <hi>Image</hi> what <hi>Su<g ref="char:EOLhyphen"/>perſcription</hi> they beare.</p>
+               <p>By that <hi>Image</hi> which you ſee on the one ſide, you are told it is for the King and his Iuſt Rights, that <hi>Caeſar</hi> may have what is his: by the <hi>Super<g ref="char:EOLhyphen"/>ſcription</hi> on the other ſide, you are aſſured it is for the eſtabliſhed Religion, for the Freedome of Parliaments, for the Liberty of Subjects that you beare Armes.</p>
+               <p>Your Adverſaries may fight for the bare Sil<g ref="char:EOLhyphen"/>ver, having no better engagement to hold them in Armes; as for the <hi>Image</hi> or <hi>Superſcription</hi> they have nothing to doe with either; the <hi>Superſcrip<g ref="char:EOLhyphen"/>tion</hi> which the Prieſts put upon <hi>Iudas</hi> his peices of Sylver, <hi>The price of blood,</hi> they might read up<g ref="char:EOLhyphen"/>on theirs, and would caſt them away as he did his, were their Conſciences not too far hardened.</p>
+               <p>But you fight for the Cauſe, which is able to ſatisfie Conſcience, when Gold and Sylver can<g ref="char:EOLhyphen"/>not doe it; and in the performance and diſcharge of this your duty and allegiance, both the Law of God and of this Land will be your warrant, will ſecure you of the juſtnes of your Cauſe.</p>
+            </div>
+            <div type="section">
+               <head>Life and Converſation.</head>
+               <p>
+                  <hi>I<g ref="char:V">Ʋ</g>ſtnes of the Cauſe</hi> is not enough to make all proſper without a conſiderable diſpoſition of the Perſons, and anſwerable <hi>Converſation</hi> of thoſe
+<pb n="9" facs="tcp:119378:6"/> that are imployed in the defence of it; I feare there is too generall a ſecurity and confidence this way, in many that follow the King in this Warre; who ſeeing that between them and the Adverfary, the right of the Cauſe is on their ſide, are not ſo ſollicitous upon the point of righteouſ<g ref="char:EOLhyphen"/>nes betweene God and themſelves; as if their Loyalty to their Prince would excuſe their Re<g ref="char:EOLhyphen"/>bellion againſt God, or their Zeal to His ſervice cover their neglect in Gods worſhip.</p>
+               <p>Conſider what the Lord threatens by the mouth of <hi>Samuell. If yee ſhall ſtill doe wickedly yee ſhall be conſumed both yee and your King.</hi> 1. <hi>Sam.</hi> 12.25. not only yee for your own, but even your King alſo for your wickednes; and <hi>Pſa.</hi> 81.14. The Lord tells his People under what condi<g ref="char:EOLhyphen"/>tion they might expect his helpe; <hi>If my People would have hearkened and walked in my wayes, I ſhould ſoon have put down their Enemies, &amp; tur<g ref="char:EOLhyphen"/>ned mine hand against their Adverſaries<g ref="char:punc">▪</g>
+                  </hi> and the Pſalmiſt in his own Perſon teacheth every one of you to conclude with your ſelves, <hi>If I incline un<g ref="char:EOLhyphen"/>to wickednes with my heart, the Lord will not heare me. Pſal.</hi> 66. you ſee you ſtrip your ſelves of Gods protection, nay make him your Enemy, who threatens <hi>to wound the hairy ſcalp of ſuch an one as goeth on ſtill in his wickednes, Pſa.</hi> 68.21. you need no other Enemies, he will wound you.</p>
+               <p>How oft have we ſeene a juſt Cauſe ſuffer
+<pb n="10" facs="tcp:119378:7"/> through the wickednes of Inſtruments uſed in the defence of it? the Pſalmiſt ſpeakes of Gods people under his ſpeciall protection in the wil<g ref="char:EOLhyphen"/>dernes, how that, becauſe they provoked him often to anger with their owne inventions, they were often brought down in their wickednes, as weread, <hi>Pſa.</hi> 78. and <hi>Pſa.</hi> 106.</p>
+               <p>We may ſee this in ſeverall Examples. The <hi>Iſraelites</hi> had a juſt Cauſe againſt <hi>Moab,</hi> but ob<g ref="char:EOLhyphen"/>ſerve how they ſped in it at firſt; The King of <hi>Moab</hi> ſends for <hi>Balaam,</hi> and ſhewes him the Hoaſt of <hi>Iſraell</hi> from an high mountaine, to the end he might curſe them; but ſo long as there was <hi>not iniquity and perverſnes</hi> among them, he could have no power againſt them: ſo he is for<g ref="char:EOLhyphen"/>ced to confeſſe, <hi>Num.</hi> 23. <hi>verſ.</hi> 21, 23. <hi>He hath not beheld iniquity in Iacob, he hath not ſeen per<g ref="char:EOLhyphen"/>verſnes in Iſrael, the Lord his God is with him; ſurely there is no inchantment againſt Jacob nor divination againſt Iſrael.</hi> No Art or power of man or Divell can prevail againſt a people, an army truſting in God and ſerving him.</p>
+               <p>Therefore <hi>Balaam</hi> lets the King of <hi>Moab</hi> un<g ref="char:EOLhyphen"/>derſtand that <hi>Iſrael</hi> muſt firſt be brought to ſin againſt their God, before he can prevail againſt them; and for that purpoſe counſells him (which Counſell of <hi>Balaam</hi> is mentioned, <hi>Num.</hi> 31.16.) to ſend in the daughters of <hi>Moab</hi> and the <hi>Midi<g ref="char:EOLhyphen"/>anitiſh</hi> women among them; we have the per<g ref="char:EOLhyphen"/>formance
+<pb n="11" facs="tcp:119378:7"/> and iſſue of that counſell, <hi>Nam.</hi> 25. They fall by <hi>Whoredome</hi> and <hi>Idolatry,</hi> and then by the Sword and the Plague.</p>
+               <p>
+                  <hi>Iſrael</hi> had a juſt cauſe againſt the <hi>Canaanites,</hi> yetthey were ſlain before the Men of <hi>Ai</hi> through <hi>Achans</hi> ſin; they are forewarned of it in theſe words, <hi>Joſ.</hi> 6.18. <hi>In any wiſe keep your ſelves from the accurſed thing, leaſt you make your ſelves accur<g ref="char:EOLhyphen"/>ſed, and make the Camp of</hi> Iſrael <hi>accurſed and trouble it. Achan</hi> he covets the forbidden thing, takes a Babyloniſh garment, a wedge of gold, &amp; two hundred ſhekels of Sylver; for this <hi>Iſrael</hi> is ſmitten before their Enemies, and the Lord tels them, <hi>Joſ.</hi> 7.13. <hi>There is an accurſed thing in the midſt of thee O Iſrael; thou cauſt not ſtand before thine Enemies, untill yee take away the accurſed thing from among you.</hi>
+               </p>
+               <p>Againſt the <hi>Philiſtins</hi> alſo their Cauſe was good, yet are they ſmitten by the uncircumciſed, and the Ark is taken for the wickednes of the Prieſts, and for the generall <hi>profanenes</hi> and neg<g ref="char:EOLhyphen"/>lect of Gods worſhip among the People. <hi>Eli</hi> knew all this, what little feare of God there was in his ſons, or the People that were gone out to Warre, and therefore expects the Iſſue of the Battell with a trembling heart; <hi>He ſat by the way ſide watching, for his heart trembled,</hi> &amp;c. 1. <hi>Sam.</hi> 4.13.</p>
+               <p>The <hi>Iſraelites</hi> are twice ſmitten before the
+<pb n="12" facs="tcp:119378:8"/> 
+                  <hi>Beniamites</hi> (though their Cauſe and Warre was approved by God) becauſe they went not out with that mind, that humility, that dependance on God, as they ought. For doe but obſerve the paſſages of that ſtory, <hi>Judg.</hi> 20. The <hi>Beniamites</hi> are very obſtinate in the defence of a lewd cauſe, will not be brought to any peaceable way of gi<g ref="char:EOLhyphen"/>ving ſatisfaction for the injury done; the <hi>Iſrae<g ref="char:EOLhyphen"/>lites</hi> therefore gather themſelves to Battell, but firſt go up to the houſe of God to aske Counſell, <hi>verſ.</hi> 18. A good Cauſe they have, and they be<g ref="char:EOLhyphen"/>gin well: why then doth it not ſucceed accor<g ref="char:EOLhyphen"/>dingly? Surely there was ſomething amiſſe a<g ref="char:EOLhyphen"/>mong them.</p>
+               <p>They enquired only who ſhould lead the Bat<g ref="char:EOLhyphen"/>tell, they doubted not of the Victory, becauſe their Cauſe was good, and their number great, that was their vaine confidence; and beſides that, they had Idolatrous worſhip among them, <hi>Mi<g ref="char:EOLhyphen"/>cha's</hi> graven Image was ſet up in the Tribe of <hi>Dan, Iud.</hi> 18.31. and the Lord by that ill ſucceſſe he gave them, did as it were tell them, they muſt not truſt in their numbers but in Him, and be as ſollicitous for the injury done to him in his wor<g ref="char:EOLhyphen"/>ſhip, as for the wrong done to the Levite, and be as carefull to remove the one as the other. There<g ref="char:EOLhyphen"/>fore being twice ſmitten, they underſtand them<g ref="char:EOLhyphen"/>ſelves, and weep before the Lord, and faſt, and offer peace offerings, that they may firſt be recon<g ref="char:EOLhyphen"/>ciled
+<pb n="13" facs="tcp:119378:8"/> unto God before they go againe into Bat<g ref="char:EOLhyphen"/>tell; and then the ill Cauſe falls heavy upon the <hi>Beniamites</hi> to their utter deſtruction.</p>
+            </div>
+            <div type="section">
+               <head>All Prophanenes to be avoyded.</head>
+               <p>BY the former examples and places of Scrip<g ref="char:EOLhyphen"/>ture you are taught ſomethings are utterly to be declined and avoyded by you, ſome things a<g ref="char:EOLhyphen"/>gaine expected from you, if you would have good ſucceſſe under Gods protection &amp; preſervation.</p>
+               <p>The <hi>Midianitiſh</hi> Woman muſt not be brought into the Camp, nor muſt the <hi>Babiloniſh</hi> garment, or any accurſed thing, or any profanenes be found among you, as you may learn by the three firſt examples. But as Heart ſeeking the Lord in all humility and feare, and wholly depending on him is required of you, as you are taught by the Example of the <hi>Iſraelites</hi> going out againſt the <hi>Beniamites.</hi>
+               </p>
+               <p>The reaſon of both is drawn from the preſence of God, which if you deſire to have comfortably among you, you muſt remove whatſoever is of<g ref="char:EOLhyphen"/>fenſive to him, as he Commands and gives the reaſon, <hi>Deut.</hi> 23.19. <hi>For the Lord thy God walk<g ref="char:EOLhyphen"/>eth in the midſt of thy Camp to deliver thee, and to give up thine Enemies before thee, therefore ſhall thy Camp be holy, that he ſee no unclean thing in thee, and turn away from thee.</hi>
+               </p>
+               <pb n="14" facs="tcp:119378:9"/>
+               <p>He ſeemes to ſpeake there of the outward un<g ref="char:EOLhyphen"/>cleanenes that paſſeth from the body, but indeed intends the ſinfull uncleanenes of <hi>Whoredome, Drunkenneſſe,</hi> of <hi>Curſing</hi> and <hi>Swearing,</hi> or any <hi>Profanenes,</hi> of <hi>violence, Injuſtice, Cruelty,</hi> as at the 9. v. <hi>when the Heaſt goeth forth againſt thine enimies, then</hi> (then eſpecially) <hi>keep thy ſelfe from every wicked thing.</hi>
+               </p>
+               <p>What is done by you in ſecret I know not, but if there be any <hi>Midianitiſh women</hi> brought in a<g ref="char:EOLhyphen"/>mong you, though not ſo openly, as that <hi>Phineas</hi> the Magiſtrate or Officer may take notice of it and puniſh it, but ſo cloſely as <hi>Achan</hi> kept his Babyloniſh garment, <hi>Joſ.</hi> 7. know ye that this God that walketh in the night through your Camp, and ſees in darkneſſe will bring the evill of your wayes upon you, <hi>Be ſure</hi> (ſaith he) <hi>your ſinne will find you out, Num.</hi> 32.22. But let me tell you how you appear in publique, what eve<g ref="char:EOLhyphen"/>ry one that paſſeth by your Guards, may ſee in ſome of you, <hi>drunkenneſſe</hi> and exceſſe, may hear from many of you, <hi>Oathes and Curſes</hi> by that great and holy name, (in which your help ſtan<g ref="char:EOLhyphen"/>deth) and ſo frequently, as if you could not ſpeak one to another, or your Leaders and Officers give you a Command without an Oath or a Curſe.</p>
+               <p>Be you or they never ſo well deſerving of the Military art, ye doe His Majeſty but diſſervice in purſuing his commands, and keeping his
+<pb n="15" facs="tcp:119378:9"/> guards after that manner. If any of your Com<g ref="char:EOLhyphen"/>manders be ſo farre from executing His Majeſties orders againſt this or any other <hi>profaneneſſe,</hi> that they give you example rather for it, you muſt know it will not excuſe you, but aggravate the ſinne ſo much the more, in them for giving the example, in you for the imitation.</p>
+               <p>Nay we might find the contagion of it yet ſpred farther upon the inhabitants of this Town, in which whoſoever ſhall heare, as with horror he may doe, even Boyes and Women <hi>Swearing</hi> and <hi>Curſing,</hi> he will not think but the infection was taken or increaſed ſince this Citty became a Garriſon. This is the way to haſten judgement, becauſe the ready way to fill up the meaſure of iniquity, when it comes to that of the Prophet, <hi>Hoſ.</hi> 4 9. and <hi>Eſa.</hi> 24.2. <hi>Like People like Prieſt, like Maſter like Servant, like Buyer like Seller,</hi> like Captain like Souldier, like Gueſt like Hoſt; how can we hope for abatement of judgements upon the encreaſe of ſinne, or that they ſhould ceaſe, while this doth continue in ſuch an height of profaneneſſe?</p>
+               <p>Doe but heare what the <hi>Pſalmiſt</hi> threatens to him that is guilty of it, <hi>His delight was in curſing and it ſhall happen unto him: he cloathed himſelfe with curſing, and it ſhall come into his bowels like water, and liek oyle into his bones, Pſal.</hi> 109.16,17. and then doe but reflect upon your ſelves,
+<pb n="16" facs="tcp:119378:10"/> and conſider how he meets with that cuſtome of ſwearing and curſing which is ſo familiar with many of you, as if it were your <hi>delight</hi> and <hi>cloa<g ref="char:EOLhyphen"/>thing,</hi> and how it will come home to him, that uſes it, in a judgement that will not depart from him; not much unlike that of <hi>Joab</hi> for his blood<g ref="char:EOLhyphen"/>ſhed. 1. <hi>King.</hi> 2.5. <hi>He put the blood of Warre upon his girdle that was about his loynes, and upon the ſhooes that were upon his feet;</hi> that is, the guilt of blood would cleave cloſe unto him, like the ſtrai<g ref="char:EOLhyphen"/>teſt cloathing which was about him.</p>
+               <p>It were to be deſired that all you which are Commanders and Officers, would conſider there will alwaies <hi>a mixed multitude</hi> follow an Army, as there did the Camp of <hi>Iſrael, Exod.</hi> 12.38. and that <hi>mixed multitude</hi> being of an <hi>Egyptian</hi> appe<g ref="char:EOLhyphen"/>tite, will be luſting after that which is unlawfull, as they did, <hi>Num.</hi> 11.4,5. The more care reſts up<g ref="char:EOLhyphen"/>on you both to command your ſelves and to check the unrulineſſe of your People; for as it is ſaid there, v. 10. <hi>Moſes was displeaſed at it,</hi> ſo ſhould it diſpleaſe you, whenſoever you heare the Blaſ<g ref="char:EOLhyphen"/>phemies and Curſes, or ſee the <hi>exceſſe and drun<g ref="char:EOLhyphen"/>kenneſſe</hi> of Souldiers under you, and it ſhould be your endeavour to reſtrain them.</p>
+               <p>That you and they are concerned in it, may be ſhewn by many inſtances out of holy Scripture, I will inſiſt in fower of them.</p>
+               <p>The firſt is from that choice which was made of
+<pb n="17" facs="tcp:119378:10"/> thoſe Souldiers, by whom the Lord would ſave his people from the <hi>Midianites, Iud.</hi> 7.6. the Lord tells <hi>Gideon</hi> their Generall, whom he ſhould ſend away, whom he ſhould retain; they that, when they drunk at the brook, laid down to draw it in with their lips, that is, ſuch as would be ſloathfull, and lye down to pleaſure, drawing it in with a full draught, were to be diſmiſſed; but thoſe that lapped it up bringing the water with the hand to their mouth, that is, ſuch as drank more ſparingly, and with more paines, which did argue they were more patient of labour and thirſt, content with a little, and able to moderate themſelves and their pleaſures, were to be retained. This tells you, if you will be ſuch, as are meet for the Lord to ſave his People by, you muſt be tempe<g ref="char:EOLhyphen"/>rate every way, not lying downe to pleaſure to wallow in it, or take your fill of it.</p>
+               <p>The ſecond is from the example of <hi>
+                     <g ref="char:V">Ʋ</g>riah</hi> a Commander in <hi>Davids</hi> Armies, who comming from the Camp to the Citty, could not by any means be perſwaded to goe home to his wife, and gives the reaſon of it. <hi>The Arke, and Iſrael and Iudah abide in tents, and my Lord Joab, and the ſervants of my Lord are encamped in the open fields: ſhall I then goe into mine houſe to eat and to drink and to lye with my wife?</hi> 2. <hi>Sam.</hi> 11.11.</p>
+               <p>This was a commander indeed, that had learnt firſt to command himſelfe; not like the Officers
+<pb n="18" facs="tcp:119378:11"/> of Armies now adayes, who can make occaſions to ſtep over from the Camp wherever it is, to the next great Towne, and there give themſelves up to all the pleaſures the place will afford. But this, you'l ſay, was too great auſterity in a Souldi<g ref="char:EOLhyphen"/>er; yet doth it tell you, that Temperance will be<g ref="char:EOLhyphen"/>ſeem you which are of the ſame profeſſion; for if he would not take the liberty to doe what he might, how ſhall ye to doe what ye may not? and if he ſo carefully abſtained even from lawfull pleaſures, though earneſtly perſwaded to the ſo<g ref="char:EOLhyphen"/>lace of them, how much more ſhould you be carefull to fly the unlawfull pleaſures of Exceſſe and Riot, of chambering and wantonneſſe, though enticed thereunto by earneſt perſwaſions of evill companions?</p>
+               <p>It is true that before <hi>Vriah</hi> returned to the Camp he was made drunk, but it was upon ſuch provocations (as you may ſee v. 13.) that I ve<g ref="char:EOLhyphen"/>rily believe none of you can ever meet with the like.</p>
+               <p>The third inſtance is from that Captain in the Goſpell, that good <hi>Centurion.</hi> As he from that o<g ref="char:EOLhyphen"/>bedience which his Souldiers yeelded to him (who was but a mortall man) argued by a well grounded faith, that all things would obey him that was God omnipotent; after this manner: At my word one goeth, another cometh, a third doth this or that as he is commanded, how much
+<pb n="19" facs="tcp:119378:11"/> more ſhall ſickneſſe depart from my ſervant and health return, if thou doſt but ſay the word. <hi>Luk.</hi> 7. So you that are in authority, from that obedi<g ref="char:EOLhyphen"/>ence you expect and receive from thoſe which are under you, ſhould reaſon accordingly, and conclude, that there is obedience and ſervice much more due from you and your ſouldiers to the Lord of Hoaſts, the great Commander of all the Creatures.</p>
+               <p>The laſt inſtance is from the Apoſtles argu<g ref="char:EOLhyphen"/>ment, whereby he doth often from that duty and diſcipline (which is uſed in your profeſſion, and cannot be neglected without great hazard) en<g ref="char:EOLhyphen"/>deavour to perſwade diligence, care and conſtan<g ref="char:EOLhyphen"/>cy in the Chriſtian Warfair; ſo muſt you think you and your men are not taken off from the duty and carefull practice of the one by your atten<g ref="char:EOLhyphen"/>dance on the other, but are ſo much the more prompted unto a ſtrict obſervance of the duty of a Chriſtian life, by how much the ſimilitude be<g ref="char:EOLhyphen"/>tween it, and a Souldiers profeſſion, is more ap<g ref="char:EOLhyphen"/>parent.</p>
+               <p>See then what dutics of Chriſtianity the Apo<g ref="char:EOLhyphen"/>ſtle has cloathed with the habit of your profeſſion: <hi>Thou therefore endure hardneſſe as a good Souldi<g ref="char:EOLhyphen"/>er of Ieſus Chriſt,</hi> 2. Tim. 4.3. <hi>No man that war<g ref="char:EOLhyphen"/>reth entangleth himſelf with the affaires of this life that he may pleaſe him who hath choſen him to be a Souldier,</hi> v. 4. <hi>If any manſtrive for maſteries he is
+<pb n="20" facs="tcp:119378:12"/> not crowned except he ſtrive lawfully,</hi> v. 5. <hi>Every one that ſtriveth for the mastery is temperate in all things,</hi> 1 <hi>Cor.</hi> 9.23. <hi>I ſo fight not as one beating the aire, v.</hi> 26.</p>
+               <p>When you enter upon your profeſſion, you undertake hardſhip, renounce pleaſure, and ſuch engagements as may hinder you in the due per<g ref="char:EOLhyphen"/>formanee of your ſervice, you muſt be temperate in all things; if you ſtand upon the guard, it is ex<g ref="char:EOLhyphen"/>pected you ſhould be ſober and watchfull; if you be ſummoned to march, you caſt of needleſſe bur<g ref="char:EOLhyphen"/>thens, and carry only neceſſary proviſions; if you doe march againſt an enimy, you obſerve Rank and Order; if you put on armour, you put off firſt your outward looſe garments: if you enter combate with the adverſary, you lay not about you vainly, <hi>beating the aire,</hi> or ſmiting your fellowes that ſtand by you, but making at the enimy with all your might; and to ſtrive thus, is to ſtrive lawful<g ref="char:EOLhyphen"/>ly, that is, to obſerve the Law of fights and com<g ref="char:EOLhyphen"/>bats, in order to the obtaining of the prize, and <hi>pleaſing of him that has choſen you to be Souldiers.</hi>
+               </p>
+               <p>doe but apply all this to thoſe duties and that Law which you are to obſerve in the Chriſtian warfare; and you will know what is expected from you, and what neerly concernes you.</p>
+               <p>For in the warfair of a Chriſtian life, you have enimies as well as in this you now ſerve in, and there the loſſe of the ſoule is hazarded, as the bo<g ref="char:EOLhyphen"/>dily
+<pb n="21" facs="tcp:119378:12"/> life is endangered in this: there is armour to to be put on and uſed; there is Order and Ranke to be obſerved that you be not found <hi>walking diſ<g ref="char:EOLhyphen"/>orderly,</hi> which is as dangerous here as in a march againſt the enimy; there is a prize, a victory to be obtained; there alſo is one to be pleaſed that has choſen you, called you to be Chriſtians. Nay the not pleaſing of him in not obſerving the duties of a Chriſtian life, will make you faile not only of gaining the prize of eternity, but even of all good ſucceſſe here in this temporall warfair.</p>
+               <p>There are ſome ſinnes, done in the body, which make the Souldier unable to goe through with his ſervice and duty that belongs to his place, which weaken the conſtitution of the body, and eat out the Marrow of the bones, ſuch as drunkenneſſe, rioting, whordome, and the like uncleanneſſe; but theſe and all other wickedneſſe and ſinnes of profaneneſſe, as ſwearing, curſing, blaſphemy, bloodſhed, oppreſſion, doe not only make you looſers in the ſpirituall warfait, and give you up to your ghoſtly enimies, but alſo cut you off from Gods protection and bleſſing, expo<g ref="char:EOLhyphen"/>ſing you naked and unarmed to all the dangers of Warre.</p>
+               <p>And not only ſo, but as it was ſaid of <hi>Achan, that man periſhed not alone, but wrath fell on all the Congregation, Joſ.</hi> 22.20. and as it appears by the other examples above alleadged, you doe through
+<pb n="22" facs="tcp:119378:13"/> ſuch provocations endanger, as much as in you lyes, a good Cauſe to <hi>fall</hi> with you, which you ſhould uphold with your beſt endeavours.</p>
+               <p>Thus in generall you ſee a reſtraint is caſt up<g ref="char:EOLhyphen"/>on you, you may not do or ſpeak as you liſt; you muſt leave of and avoid ſomethings, and practiſe other; you muſt ſtrive lawfully obſerving the or<g ref="char:EOLhyphen"/>der and rule of your warfaire, that you may pleaſe him who ha's choſen you to be Souldiers, that is, your God in the duties of a Chriſtian life, which is the Spirituall warfaire, and your Prince in your orderly demeanour during this preſent War you ſerve him in.</p>
+            </div>
+            <div type="section">
+               <head>Duties to be obſerved.</head>
+               <p>BVt a little more particularly to direct you, let me commend unto you three Duties, to which if you hold, the obſerving of them will be your beſt Armour and proviſion. 1. the true <hi>Feare</hi> of God. 2. A due <hi>Dependance</hi> upon his provi<g ref="char:EOLhyphen"/>dence &amp; protection. 3. Dayly <hi>Invocation</hi> and <hi>Pra<g ref="char:EOLhyphen"/>yer.</hi> Theſe will preſerve &amp; keep you from falling preſumptiouſly into thoſe former Evils of a lewd converſation, and from ſinking deſperatly under the Evils and Dangers of War; you will find the direction and comfort of them in all the imploy<g ref="char:EOLhyphen"/>ments you are put to; when you ſtand upon the <hi>Watch</hi> for the preſerving of your ſelves and o<g ref="char:EOLhyphen"/>thers,
+<pb n="23" facs="tcp:119378:13"/> when you are called to a triall of your <hi>valour</hi> againſt the Enemy, when you are now to Enter the <hi>Battle,</hi> when you have the iſſue of it, either in <hi>Ill Succeſſe,</hi> or in <hi>
+                     <g ref="char:V">Ʋ</g>ictory,</hi> and taking the ſpoyle. Of all which particulars ſomething for your Direction.</p>
+               <div n="1" type="duty">
+                  <head>Feare of God.</head>
+                  <p>I. OF the <hi>Fear</hi> of God; To teach a Souldi<g ref="char:EOLhyphen"/>er to <hi>feare,</hi> may ſeem but an impro<g ref="char:EOLhyphen"/>per and unſeaſonable leſſon; but indeed to teach you this feare, the <hi>Feare</hi> of God, is to give you boldneſſe, and to tell you, you need not feare a<g ref="char:EOLhyphen"/>ny thing elſe: The wiſeman aſſures us and gives it for a proverb received of all, that <hi>the Fear of the Lord is beginning of Wiſedome,</hi> Prov. 9.10. So it is to all that can learn it, but eſpecially it is the Souldiers Wiſedome, who, ſeeing he ha's of all other moſt to do with fearfull and dreadfull things, doth then acquit himſelfe moſt wiſely, when he ha's learn't how to Arme himſelfe moſt compendiouſly and readily againſt all otherfeares whatſoever, by the entertaining of one fear, the Fear of God.</p>
+                  <p>Take confidence whence you will, it is but vaine without this Feare, be it from the multi<g ref="char:EOLhyphen"/>tude of an Hoaſt, in Scripture you may read of divers vaſt Armies put to flight, not ſmitten by
+<pb n="24" facs="tcp:119378:14"/> their Enemies, but ſtricken with a ſudden feare, ſent among them from the Lord, whom they leaſt feared; or be it from the ſtrength of Armor, ſee the Souldiers at the Sepulchre ſo aſtonyed, that they lye for dead; or be it from height of walls, or from the ſpirit of ſtrong drinke, (wherewith ſome Souldiers fooliſhly arme themſelves, when they go upon ſervice) ſee <hi>Belſhazar</hi> carouſing with his Princes and Captaines in his ſtrong Pal<g ref="char:EOLhyphen"/>lace, without any feare of the Enemy then laying ſeige againſt him; when as one hand from Hea<g ref="char:EOLhyphen"/>ven, not with a ſword in it to execute, but a pen only to write his doom upon the wall, affrights them all, <hi>Dan.</hi> 5.5.</p>
+                  <p>Now this <hi>Feare</hi> of God is a feare to offend him, either by doing ſuch things as he has forbidden, for thoſe tend to his diſhonour and provoke him to wrath; or by neglecting to doe ſuch things as he ha's commanded, for in thoſe doth his ſervice and worſhip conſiſt, and the performance of them makes for the advancement of his glory.</p>
+                  <p>This <hi>Feare</hi> is grounded upon that due appre<g ref="char:EOLhyphen"/>henſion which we ought to have of God. Firſt, in regard of his <hi>Omniſcience,</hi> in that he knowes all things, and is a witnes to all the Evill we do, ſees us whereſoever we are, and whatſoever we are about, heares us whatſoever we ſpeake, and conſiders the very thoughts and deſires of our hearts, Secondly, in regard of his <hi>Omnipetency,</hi> or
+<pb n="25" facs="tcp:119378:14"/> his Power, as it is ſubſervient to his <hi>Iuſtice</hi> in inflicting evill, and to his <hi>mercy</hi> in preſerving and rewarding; He that can inflict or bring the grea<g ref="char:EOLhyphen"/>teſt Evill upon man, is moſt to be feared, accor<g ref="char:EOLhyphen"/>ding to our Saviours argument, I will forewarne you whom ye ſhall feare, <hi>Feare him, who after he hath killed, hath power to caſt into Hell, Luk,</hi> 12.5. man conſiſts of body and Soule, God only ha's power to deſtroy both; the greater World is made up of many ſorts of Creatures, God only has power to command their Hoaſts, to chaſtiſe powerfull Kings by contemptible Creatures, froggs, lice, locuſts, ſo in <hi>Egypt;</hi> but when he will ſhew his power by a judgement of more wonder, <hi>a Iudgement worthy of God,</hi> as it is, <hi>Wiſd.</hi> 12.26. he can make the Sea give backe when his people enter, and retire againe to overthrow the <hi>Egyp<g ref="char:EOLhyphen"/>tians</hi> purſuing them; can make the Starres fight in their Courſe againſt <hi>Sizera, Iudg.</hi> 5. can by one Angell from Heaven in one night deſtroy an hun<g ref="char:EOLhyphen"/>dred and foureſcore thouſand men in the Camp of the <hi>Aſſyrians.</hi> Conclude therefore upon all men as the Prophet doth upon the <hi>Egyptians,</hi> Eſa. 31.3. <hi>The Egyptians are men and not God, their Horſes are fleſh and not ſpirit: when the Lord ſhall ſtretch out his hand, both he that helpeth ſhall fall, and he that is holpen ſhall fall downe.</hi>
+                  </p>
+                  <p>But he ha's power not only for Iudgement and deſtruction, but alſo for ſalvation, and how great
+<pb n="26" facs="tcp:119378:15"/> is his power, that for that purpoſe can command Legions of powerfull Angells; and this alſo is a ground of the true feare of God, His <hi>Power</hi> as it is ſubſervient to his <hi>Mercy, Mercy with thee that thon maiſt be feared, Pſa.</hi> 130.4.</p>
+                  <p>Doe but thus apprehend the Allſeeing, Almigh<g ref="char:EOLhyphen"/>ty God, and ſuch an awfull reverence and dread will poſſeſſe your hearts, that it will check and reſtrain you from all uncleanenes, becauſe <hi>He walketh in the midſt of the Camp,</hi> as he tells his People, <hi>Deut.</hi> 23 and <hi>will be a ſwift witnes againſt the adulterers, and ſwearers, and oppreſſors,</hi> as he threatens, <hi>Mal.</hi> 3.5. It was this <hi>Feare</hi> that kept <hi>Ioſeph</hi> from conſenting to his Maſters wife, <hi>how can I</hi> (ſaith he) <hi>doe this great wickednes and ſinne agaiuſt God, Gen.</hi> 39.9. It will reſtrain you from cruelty and all unjuſt violence, ſo it kept <hi>Ioſeph</hi> from dealing hardly with his Brethren, <hi>this doe</hi> (ſaith he) <hi>and live, for I feare God, Gen.</hi> 42.18. Finally, it will drive you to him for pro<g ref="char:EOLhyphen"/>tection in the times of diſtreſſe; which was the next duty commended to you.</p>
+               </div>
+               <div n="2" type="duty">
+                  <head>Dependance upon Gods Providence.</head>
+                  <p>II. A <hi>Dependance</hi> upon Gods providence and protection. <hi>Feare</hi> doth uſually drive men from that which is feared, when they can ſee nothing but the evill of it, or leſſe good then
+<pb n="27" facs="tcp:119378:15"/> evill in it; but this <hi>Feare</hi> is attractive, drawes to God, becauſe that power of his, which is the ground of this <hi>feare</hi> is not only a power of infli<g ref="char:EOLhyphen"/>cting evill, but of ſaving too, as when he ſets himſelfe between the hoaſts of the <hi>Iſraelites</hi> and <hi>Egyptians</hi> in the pillar of the Cloud, which gave light and comfort to the <hi>Iſraelites,</hi> but ſhewed blacknes and terrour to their Enemies, <hi>Exod.</hi> 14.20. But ſee the promiſe of protection, how that Power ſhall be imployed for the ſecurity of them that feare him, <hi>The Angell of the Lord encampeth round about them, Pſa.</hi> 34.7. and <hi>God will appoint ſalvation for Walls and Bullwarks, Eſ.</hi> 26.1. here are Fortifications beyond your out-works, the protection of God drawes the outmoſt lines of defence, keepes the outmoſt guards round about them that feare him; for which the Pſalmiſt often calleth the Lord his <hi>ſheild</hi> and <hi>buckler,</hi> his <hi>rocke</hi> and <hi>towre</hi> of defence.</p>
+                  <p>The Lord to clear this plainly in delivering his People fro<g ref="char:cmbAbbrStroke">̄</g> the great hoaſt of the <hi>Midianites,</hi> tells <hi>Gideon, the people that are with thee are too many for me to give the</hi> Midianites <hi>into their hands, leaſt</hi> Iſraell <hi>vaunt themſelves againſt me, ſaying, mine owne hand hath ſaved me, Iud.</hi> 7.2. that <hi>Iſraell</hi> might not ſay, <hi>the Midianites are too many for me</hi> (ſo indeed they were, if ſucceſſe had depended on their Number rather then Gods protection) the Lord ſaid to <hi>Gideon, the people with thee are
+<pb n="28" facs="tcp:119378:16"/> too many for me;</hi> ſo he reduceth them to three hundred, and ſends them againſt ſo many thouſand of the <hi>Midianites,</hi> that the Salvation might ap<g ref="char:EOLhyphen"/>peare to be wrought only by his power.</p>
+                  <p>In the Camp at <hi>Gilgal,</hi> where all the men of warr were circumciſed, while they were ſore &amp; not well able to help themſelves (in which caſe two men, <hi>Simeon</hi> &amp; <hi>Levi,</hi> fell upon a whole Cit<g ref="char:EOLhyphen"/>ty and ſlew all the males, <hi>Gen.</hi> 34.) they were fare by his protection, that made the terrour and feare of them fall upon the <hi>Amorites</hi> round about, ſo that their hearts melted, and there was no ſpi<g ref="char:EOLhyphen"/>rit in them becauſe of the children of <hi>Iſrael,</hi> as we ſee, <hi>Joſ.</hi> 5.1.</p>
+                  <p>So when they went up to <hi>Ieruſalem</hi> at the three great Feaſts thrice every yeare by Gods command, and thereupon their borders were left naked of men to defend them, the Lord promiſed and did make it good, that none ſhould ſo much as deſire their Land, when they went up to appeare before the Lord, <hi>Exod.</hi> 34.24. Their going up to <hi>Ieruſalem</hi> was to worſhip and offer ſacrifice, and if they ſtayed at home or neglected the ſervice, they could not expect the defence promiſed, and this puts me in mind of what I commended to you in the third place, <hi>Prayer.</hi>
+                  </p>
+               </div>
+               <div n="3" type="duty">
+                  <pb n="29" facs="tcp:119378:16"/>
+                  <head>Dayly Prayer.</head>
+                  <p>III. <hi>PRayer,</hi> or dayly invocation or calling up<g ref="char:EOLhyphen"/>on God; whereby that protection and defence is implored and obtained; whereby you ſhew your dependance upon that protection, and doe returne unto him his daily worſhip, acknow<g ref="char:EOLhyphen"/>ledging him to be your God, by begging of him what you ſtand in need of, as forgivenes of ſinnes, grace, food, and preſervation, by giving him thankes for the good things you daily receive from his gratious and powerfull hand of Provi<g ref="char:EOLhyphen"/>dence, opened to you to feed you, and ſtretched over you to protect and defend you.</p>
+                  <p>It will not be thought by many that a Souldier ſhould have very much time to beſtow on devo<g ref="char:EOLhyphen"/>tion, yet is it often ſeen that Souldiers can find too much time to ſpend upon Idlenes and vanity; and if we looke into <hi>Acts.</hi> 10. we may ſee how <hi>Cornelius</hi> a Centurion or Captaine imployed his ſpare time, <hi>He was a devout man and prayed to Godalway,</hi> v. 2. There are differences indeed o<gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> Times, and, according to the neceſſities and exi<g ref="char:EOLhyphen"/>gencies of them, there are differences of the per<g ref="char:EOLhyphen"/>formance of this duty of prayer and worſhip; for ſometimes it is more publique and ſolemne, as when you meet together in a body to pray; ſometimes in Private by your ſelves, which ſhould be your daily worſhip; and ſometimes the
+<pb n="30" facs="tcp:119378:17"/> ſtreits of time will not ſuffer it to be performed either by publique meeting or private retiring, as when you are ſuddenly commanded upon Ser<g ref="char:EOLhyphen"/>vice; yet then may it be done in the cloſet of your heart, by mentall ejaculations, and inward ele<g ref="char:EOLhyphen"/>vations of the mind to God. So you have three wayes of performing this your duty of prayer &amp; worſhip to God, the two firſt wayes as opportu<g ref="char:EOLhyphen"/>nity will give leave, (and that opportunity is not to be neglected) the laſt way you may uſe upon what imployments ſoever you ſhall be put.</p>
+                  <p>When the <hi>Iſraelites</hi> journeyed not, but reſted in a place, then <hi>they kept the charge of the Lord, Num.</hi> 9.19. that is, they attended upon the pub<g ref="char:EOLhyphen"/>lique worſhip of the Lord performed in the Ta<g ref="char:EOLhyphen"/>bernacle, which could not be ſolemnly obſerved when the Camp removed; their frequent Jour<g ref="char:EOLhyphen"/>neyings alſo being a Cauſe of the neglect and for<g ref="char:EOLhyphen"/>bearance of Circumciſion till the Camp came to be pitched in <hi>Gilgal.</hi>
+                  </p>
+                  <p>So when you reſt in Garriſon, as <hi>Cornelius</hi> did, of whom you heard above, or when you make any aboad in the Camp, as the <hi>Iſraelites</hi> did ſometime in the wildernes, and after that in <hi>Gilgal,</hi> then have you all opportunities of performing your private devotion, and alſo of attending upon the duties of publique worſhip in praying to God and hearing his word. For which purpoſe you have Chaplaines in your Regiments to miniſter
+<pb n="31" facs="tcp:119378:17"/> unto you, and he that ſhall find you lying under hedges, &amp; ſporting by the high wayes, cannot but ſee you have ſpare time, and think in all reaſon you ſhould be <hi>compelled to come in</hi> as thoſe were in the Parable, <hi>Luk.</hi> 14.23.</p>
+                  <p>But in the neceſſary ſtreits of time God will admit of limitations and ſome forbearances in his worſhip for the ſafety of the whole Army, which is concerned in the ſpeedy performance of ſud<g ref="char:EOLhyphen"/>dain duties, that the Souldier is called to. He doth it in a matter of leſſe moment, <hi>Mat.</hi> 5.23. <hi>If thou bringeſt thy gift to the Altar, and there remembreſt that thy Brother hath ought againſt thee, leave there thy gift before the Altar, &amp;c.</hi> He ſuffers a breach in his own worſhip till the breach of charity between man and man be made up; but the offering muſt not be taken away, he that brought it muſt return to offer; ſo when you are broken of your accuſtomed time for devotion by a ſuddain command for ſervice, conſider theſe two things, firſt, that you carry your heart, and therefore an Altar, about with you, from whence you may offer up your thoughts and deſires to God as you March towards, or encounter with an Enemy. Secondly, that you left your offering be<g ref="char:EOLhyphen"/>fore the Altar when you were broken of your ac<g ref="char:EOLhyphen"/>cuſtomed time, and ſo when you return to priva<g ref="char:EOLhyphen"/>cy you muſt thinke of offering.</p>
+                  <p>I have often thought with my ſelfe, how it
+<pb n="32" facs="tcp:119378:18"/> ſhould come to paſſe that Mariners and Souldi<g ref="char:EOLhyphen"/>ers (who of all other ſtand moſt in need of the benefit of prayer, and of a continuall prepared heart, as being moſt often neere to death) are yet of all other moſt commonly fartheſt from the uſe of prayer and thought of death, and doe uſually live more careleſly and looſely. It puts me in mind of that which <hi>Plutarch</hi> ſpeakes in the life of <hi>Solon,</hi> whom he notes to have been formerly of a looſer converſation and delighted in Poetry, and gives a reaſon of it from his former courſe of life when he was a Merchant, to this effect; Mer<g ref="char:EOLhyphen"/>chants running through many hazards and great dangers doe, when the Feare and ſorrow (where<g ref="char:EOLhyphen"/>with they were poſſeſt) is over, deſire to enjoy themſelves ſo much the more: in like manner ſuch Souldiers (that have no better comforts and refreſhments then what ſenſe doth ſuggeſt unto them) being often in great dangers, feares, and bitternes of mind, doe ſeeke the ſweet of a licen<g ref="char:EOLhyphen"/>tious relaxation and liberty, and the more they were ſtraitned before, the more they let all looſe when once they are free.</p>
+                  <p>This is no true eaſe or ſolace of mind after evills and dangers that are paſt, nor is it any good pre<g ref="char:EOLhyphen"/>paration againſt thoſe that are to come; it is not a Chriſtian but Epicurean remedy againſt feare and care, for it ſaith, <hi>let us eat and drinke, for to morrow we ſhall dye.</hi> But the Scripture would
+<pb n="33" facs="tcp:119378:18"/> teach both Mariner and Souldier the neerer they are to danger, the more carefully to <hi>number their dayes that they may apply their hearts to Wiſdome,</hi> which wiſdome is in the fearing of God, the de<g ref="char:EOLhyphen"/>pending on his protection, the ſerving of him dayly by prayer and thankeſgiving, the duties al<g ref="char:EOLhyphen"/>ready commended unto you.</p>
+                  <p>And now if you will take a ſhort View of the Services and imployments you are put upon, you ſhall find the uſe and benefit of thoſe duties in them. The imployments or ſervices you are put unto, I may reduce to two. You are called either to <hi>Watch</hi> or to <hi>Fight</hi> againſt the Enemy, to the <hi>Guard</hi> or to the <hi>Encounter</hi> and Battell.</p>
+               </div>
+            </div>
+            <div type="section">
+               <head>The Watch or Guard.</head>
+               <p>I. When you ſtand upon the <hi>Watch</hi> or <hi>Guard,</hi> you are there ſet for the preſervation of your ſelves and others, and ought to conſider what a great charge is committed to your truſt, no leſſe then the lives of all that are within the compaſſe of your walls or trenches, who are to be ſecured by your care, and to take their reſt in your watchfullnes; a duty this is conſcionably to be diſcharged by you. A great Commander of the <hi>Thebans</hi> finding his Sentinell ſleeping diſpatched him forthwith and excuſed it, <hi>I found him dead and ſo I left him,</hi> dead, becauſe ſleeping, and be<g ref="char:EOLhyphen"/>cauſe
+<pb n="34" facs="tcp:119378:19"/> ſleeping therefore rewarded with death indeed. It ſhowes what you deſerve if you be found ſo, becauſe thoſe you watch for, might be ſo diſpatched by the Enemy through your neglect.</p>
+               <p>Hereupon you ought to conſider how much it concernes you to take heed of exceſſe and drun<g ref="char:EOLhyphen"/>kenneſſe, which makes you unfit for the faithfull performance of this ſervice; we read in ſeverall hiſtories how many Cities &amp; Armies have been ſurprized and loſt through the negligence of the Watch being oppreſt with drunkennes and ſleep.</p>
+               <p>You muſt alſo conſider that the ſafety of the City or Camp is not to be aſcribed only or chiefly to your care and watchfullnes, but to that Eye of providence which never ſlumbreth nor ſleepeth, which watcheth over you and thoſe that you watch for, which appointeth ſalvation <hi>for Walls and Bullwarks</hi> as you heard above, and as the Pſalmiſt tells us, It is the Lord that <hi>maketh faſt the barres of our Gates,</hi> Pſa. 147.13. and <hi>the Watchmen wake in vaine, except the Lord keep the City, Pſa.</hi> 127. ſo that this ſervice or imploy<g ref="char:EOLhyphen"/>ment calls for your <hi>dependance on his protection,</hi> according to the <hi>Duty</hi> before commended to you.</p>
+               <p>2<hi rend="sup">dly</hi>. When you are called to the <hi>Encounter</hi> or Battell, you will find the direction and benefit of the three former <hi>Duties;</hi> and here you are called
+<pb n="35" facs="tcp:119378:19"/> to the triall of your <hi>Valour,</hi> and to a conſiderati<g ref="char:EOLhyphen"/>on of the <hi>Iſſue</hi> of the Battell.</p>
+            </div>
+            <div type="section">
+               <head>VALOVR.</head>
+               <p>I. <hi>VAlour</hi> is both neceſſary and commenda<g ref="char:EOLhyphen"/>ble in a Souldier, but very much miſtaken now adayes; ſometimes a quarrellſome diſpoſi<g ref="char:EOLhyphen"/>tion and heat of blood, ſometimes a careles and raſh daring goes for Valour; we ſee how drun<g ref="char:EOLhyphen"/>kennes often brings forth quarrells and fightings, when it ha's heated the blood which elſe upon a juſt and ſober occaſion would be cool enough, a Valour that deſerves not to be armed with ſwords but drinking pots, with which the <hi>Thra<g ref="char:EOLhyphen"/>cians</hi> a drunken people were wont to fight.</p>
+               <p>We ſee alſo how a falſe opinion of honour and reputation thruſts men into <hi>Duells;</hi> from whence come Warres and fightings among you? come they not from hence, even of your luſts that warr in your members? <hi>Iam.</hi> 4.1. No true <hi>Valour</hi> here but inordinate luſts and deſires, that firſt fight and ſtrive within your ſelves, being ſet on fire by ex<g ref="char:EOLhyphen"/>ceſſe and riot, or ſtirred up and miſguided by a falſe conceit of your reputation blemiſhed, if you doe not anſwer the challenge that ha's dared you to adventure body and ſoule.</p>
+               <p>The firſt challenge for a <hi>Duell</hi> that we read of came from the mouth of an uncircumciſed <hi>Phili<g ref="char:EOLhyphen"/>ſtin,</hi>
+                  <pb n="36" facs="tcp:119378:20"/> 1. <hi>Sam.</hi> 17.8. and yet that was in open warr, tending to the ſaving of many by the hazard of two, and becauſe it was therefore lawfull, <hi>Da<g ref="char:EOLhyphen"/>vid</hi> did accept it: but a challenge to a private <hi>Du<g ref="char:EOLhyphen"/>ell</hi> upon a private quarrell comes from an heart very unchriſtian, uncircumciſed. Next we find <hi>Abner</hi> and <hi>Joab</hi> meeting, and putting their men to twelve <hi>Duells,</hi> for being inured to blood they made but a ſport of killing, 2. <hi>Sam.</hi> 2.14. but to ſhew that the Lord liked neither the offer nor the accepting of the triall, the matches on both ſides fell downe together and periſhed.</p>
+               <p>True <hi>Valour</hi> is grounded upon the aſſurance of a good Cauſe, in the maintenance whereof, and in the confidence of Gods bleſſing the Souldier is not affraid to meet Death, to hazard life; he that is reſolute here is truly Valiant, though he will not ſweare and ſwagger, though he will not an<g ref="char:EOLhyphen"/>ſwer a challenge from a fellow Souldier, but dare from a juſt &amp; lawfull Enemy; for he dare adven<g ref="char:EOLhyphen"/>ture his life but not his ſoule, knowing that <hi>duell's</hi> upon private quarrells are both <hi>
+                     <g ref="char:V">Ʋ</g>nſouldier-like,</hi> becauſe men are not call'd together into Armes to try their ſwords upon each other, to purſue a pri<g ref="char:EOLhyphen"/>vate revenge but an open Enemy, and alſo <hi>
+                     <g ref="char:V">Ʋ</g>n<g ref="char:EOLhyphen"/>christian,</hi> becauſe in ſuch a caſe to kill or be kill'd, are both unwarrantable, damnable.</p>
+               <p>
+                  <hi>Ioab</hi> was a valiant man, and ſhewed it, not when he ſlew <hi>Abner</hi> and diſpatched <hi>Amaſa,
+<pb n="37" facs="tcp:119378:20"/> ſhedding the blood of War in Peace,</hi> 1. King. 2.5. but when he Encountred the <hi>Ammonites</hi> and <hi>Syrians,</hi> then he ſhewed a well grounded <hi>
+                     <g ref="char:V">Ʋ</g>a<g ref="char:EOLhyphen"/>lour.</hi> Be of good courage (ſaith he to his brother <hi>Abiſhai</hi>) <hi>and let us play the men for our people, and for the Cities of our God, and the Lord do that which ſeemeth him good,</hi> 2. Sam. 10.12.</p>
+               <p>Now as <hi>Religion</hi> doth ground all true <hi>
+                     <g ref="char:V">Ʋ</g>alour</hi> upon a juſt and good Cauſe, ſo doth <hi>Reaſon</hi> ſet bounds for it, and tels you it is no diſparagement to your Valour, but a commendation of your diſ<g ref="char:EOLhyphen"/>cretion, to refuſe to aſſaile an Enemy when there is no likelyhood of prevailing. The attempt that <hi>Ionathan</hi> and his Armour be arer alone made up<g ref="char:EOLhyphen"/>on a Garriſon of the <hi>Philiſtins</hi> is not to be drawn into example, we know by the Text that it pro<g ref="char:EOLhyphen"/>ceeded from extraordinary &amp; Divine warrant, 1. <hi>Sam.</hi> 14.6,10. But the Philoſopher tels us tru<g ref="char:EOLhyphen"/>ly in his Moralls, that Fortitude or <hi>
+                     <g ref="char:V">Ʋ</g>alour,</hi> if you will make a Vertue of it muſt be regulated, and confined by Prudence, as well as the other Ver<g ref="char:EOLhyphen"/>tues, that is, it muſt not attempt againſt all reaſo<g ref="char:EOLhyphen"/>nable poſſibility of ſucceſſe, for that is raſhneſſe or fool hardineſſe.</p>
+               <p>You of the Kings Army have ſhowne remark<g ref="char:EOLhyphen"/>able Valour upon all occaſions, and I have ſpoken all this to you of regulating your <hi>Valour</hi> by Reli<g ref="char:EOLhyphen"/>gion and Reaſon, not to ſtraiten it, but that, as you have it grounded upon a good Cauſe, ſo you
+<pb n="38" facs="tcp:119378:21"/> may uſe it in order to the advancement of that Cauſe, not miſpending it in Quartels and Duels, but upon the Enemy in a juſt Encounter, and that with a dependance upon God, the giver of all Victory; and this will not weaken your hands but increaſe your cofidence: which calls you to the next point, the Conſideration of the <hi>Iſſue</hi> of the Battle, which fall's out either with <hi>Ill Suc<g ref="char:EOLhyphen"/>ceſſe</hi> or with <hi>Victory</hi> to you, and the taking of the <hi>Spoyle.</hi>
+               </p>
+            </div>
+            <div type="section">
+               <head>The iſſue of the Battell.</head>
+               <p>IN relation to which you muſt firſt conſider, that however valour, and ſtrength, and num<g ref="char:EOLhyphen"/>ber of men be the ordinary and ſecondary means of victory, yet the <hi>Iſſue</hi> and ſucceſſe of the Battell is indeed given by a hand from Heaven; the Arme of fleſh is to be uſed, not truſted in. So the Prophet told <hi>Iehoſaphat</hi> and his Army going out againſt the enimy, <hi>the Battell is not yours but the Lords.</hi> 2. <hi>Chron.</hi> 20.15. and the Pſalmiſt, <hi>he girds with ſtrength to the Battell, Pſal.</hi> 18.32. He protects in fight whom he pleaſes and as he plea<g ref="char:EOLhyphen"/>ſes, <hi>He covered my head in the day of Battell, Pſal.</hi> 140.7.</p>
+               <p>When I ſee <hi>Ahab</hi> ſmitten with an arrow <hi>be<g ref="char:EOLhyphen"/>tween the joynts of the harneſſe,</hi> 1. <hi>King.</hi> 22.34. and <hi>Goliah</hi> ſtruck dead with a ſtone in the forehead,
+<pb n="39" facs="tcp:119378:21"/> where only he was penetrable, I muſt acknow<g ref="char:EOLhyphen"/>ledge (beſides that arme which drew the bow, for it was done <hi>at a venture,</hi> and that hand which ſlung the ſtone) an Arme of power, and hand of providence, that directed both arrow and ſtone. And it has been ſeen, that the buckle of a Belt has borne of the thruſt of a ſword, and a peice of an Horſe-ſhooe caſually found &amp; hung at a Souldiers girdle has broken the force of a bullet; a little ar<g ref="char:EOLhyphen"/>mour ſerves the turne when <hi>Providence</hi> will ſave, and the compleateſt armour cannot ſave when the ſame <hi>providence</hi> will expoſe to danger.</p>
+               <p>Secondly, conſider how vain a preſumption it is to make ſure of Victory upon any outward ad<g ref="char:EOLhyphen"/>vantage, as of Numbers, Strength, Ammunition, it was the Vanity of <hi>Siſera's</hi> mother, as ſhe is made to ſpeak concerning her ſons returne, <hi>Why is his charet ſo long in comming? why tarry the wheeles of his charets? have they not ſped? have they not not divided the prey? &amp;c. Jud.</hi> 5.28. But as <hi>Ahab</hi> tartly admoniſhed the boaſting King of <hi>Sy<g ref="char:EOLhyphen"/>ria, let not him that girdeth on his harneſſe boaſt himſelfe as he that putteth it off,</hi> 1. <hi>K.</hi> 20.11. So ought you to conſider, what the Wiſe-man had obſerved, <hi>Jreturned and ſaw, that the race in not to the ſwift, nor the battell to the ſtrong, nor yet fa<g ref="char:EOLhyphen"/>vour to men of skill, but time and chance happeus to them all. Eccleſ.</hi> 9.11. that is, the <hi>Iſſue</hi> and e<g ref="char:EOLhyphen"/>vent of things happens not alwaies according to
+<pb n="40" facs="tcp:119378:22"/> the appearance of outward means, but this <hi>Chance</hi> as he calls it, is the effect of this divine Provi<g ref="char:EOLhyphen"/>dence which diſpoſeth all things, ſome things of<g ref="char:EOLhyphen"/>ten againſt the probability of outward advanta<g ref="char:EOLhyphen"/>ges and means.</p>
+               <p>Vpon theſe conſiderations you may think, Firſt, how it concernes you to come to the Encounter, not as the <hi>Philiſtin</hi> did againſt <hi>David, Curſing him by his Gods,</hi> 1. <hi>Sam.</hi> 17.43. and as too many commanders uſe to doe, bring up their men a<g ref="char:EOLhyphen"/>gainſt the enimy with <hi>Oathes</hi> and <hi>Curſes:</hi> but to come to the fight as <hi>David</hi> did againſt the <hi>Phili<g ref="char:EOLhyphen"/>ſtin, in the name of the Lord of Hoſts,</hi> 1. <hi>Sam.</hi> 17.45. in a dependance on his protection, as <hi>Aſa</hi> did againſt the <hi>Ethiopians, O Lord our God we reſt on thee, and in thy name doe we goe out againſt our E<g ref="char:EOLhyphen"/>nimies,</hi> 2. <hi>Chro.</hi> 14.11. and with ſuch words, thoughts or meditations, as are ſuggeſted to you below in the <hi>Occaſionall devotion,</hi> concerning this poynt of comming to the <hi>Encounter.</hi>
+               </p>
+               <p>Secondly, how to bear <hi>ill ſucceſſe</hi> if it happen, or how to receive a <hi>victory</hi> and uſe it.</p>
+            </div>
+            <div type="section">
+               <head>Ill Succeſse.</head>
+               <p>YOu muſt not feek the cauſe of <hi>ill Succeſſe</hi> only in outward diſadvantages and miſcarriages, the Servants of the King of <hi>Syria</hi> concluded as that the <hi>Iſraelites</hi> were ſtronger then they, and
+<pb n="41" facs="tcp:119378:22"/> put them to the worſe becauſe they fought in the hilly Countrey, but in the plain they were con<g ref="char:EOLhyphen"/>fident they ſhould be too good for them, 1. <hi>K.</hi> 20.23. when as the God of <hi>Iſrael</hi> who diſcomfited them, was the God of the Vallies as well as of the Hilles.</p>
+               <p>But beſides the outward diſadvantages and miſcarriages, you muſt look up to that hand which diſpoſeth and overruleth all. You muſt conclude there is ſomething amiſſe in you, though your cauſe be good, as there was in the <hi>Iſraelites</hi> defeated by the men of <hi>Ai, Ioſ.</hi> 7. and in the <hi>Iſrae<g ref="char:EOLhyphen"/>lites</hi> ſmitten before <hi>Benjamin, Iud.</hi> 20. Either that you have aſcribed former victories to your own ſtrength and the counſell of man, more then to Gods goodneſſe over you; or that now when you came to the Encounter, you depended more on your numbers, ſtrength, and valour, then on his power and providence; or that there is ſome accurſed thing among you, ſome notorious pro<g ref="char:EOLhyphen"/>faneneſſe ſuffered among you, which <hi>provokes the eyes of his glory, Eſa.</hi> 3.8. and therefore the eye of his providence is turned away from watching over you. This you ought to think with your ſelves upon <hi>ill ſucceſſe,</hi> and to ſearch it out, and to apply unto the Lord in the acknowledgement of ſinne, and the deſire of his protection, ſo you may ſee <hi>Ioſua</hi> doing, <hi>Ioſ.</hi> 7.6. and the Iſraelites, <hi>Iud.</hi> 20.26.</p>
+            </div>
+            <div type="section">
+               <pb n="42" facs="tcp:119378:23"/>
+               <head>VICTORY.</head>
+               <p>IF it ſhall pleaſe God to give you good ſuc<g ref="char:EOLhyphen"/>ceſſe and <hi>victory,</hi> you muſt not aſcribe it to your own ſtrength or wiſedom, although you therein much ſurpaſſed your Enimies, but to that power and wiſedom which can defeat the greateſt ſtrength, and turne the moſt ſubtile Counſells in<g ref="char:EOLhyphen"/>to fooliſhneſſe. Then muſt you not forget to re<g ref="char:EOLhyphen"/>turne Praiſe and thankſgiving to him that gave you the <hi>Victory;</hi> and in his fear to uſe it with ſuch moderation, and reſtraint of <hi>ſlaughter</hi> and <hi>Spoyle,</hi> as may repreſſe <hi>Cruelty and Rapine,</hi> and yet not be prejudiciall to the Cauſe.</p>
+               <p>When <hi>Eliſha</hi> ſpoke what <hi>Hazael</hi> would doe to the children of Iſrael, how he would <hi>ſet their strong holds on fire, and ſlay their young men with the ſword, and daſh their children, and rip their Women with child; Hazael</hi> replyed, <hi>But what is thy ſervant a dog that he ſhould doe this great thing?</hi> 2. <hi>K.</hi> 8.12. In the judgement of an Hea<g ref="char:EOLhyphen"/>then Commander <hi>cruelty</hi> beſeems not a Souldier, not a man.</p>
+               <p>We read how <hi>Gideon</hi> dealt with the men of <hi>Succoth</hi> which held out againſt him, <hi>Iud.</hi> 8.16. he did not runne furiouſly upon them, killing all that came to hand, but <hi>took the elders of the Citty, and with the bryars of the Wildernes taught
+<pb n="43" facs="tcp:119378:23"/> them,</hi> that is, made them to know by their pu<g ref="char:EOLhyphen"/>niſhment what it was to reſiſt ſuch Rulers as God had ſet up over them; So that the chief comman<g ref="char:EOLhyphen"/>ders of the Citty were called out to execution, the People only affrighted by their example.</p>
+            </div>
+            <div type="section">
+               <head>SPOYLES.</head>
+               <p>THe Act of <hi>Iacobs</hi> ſons, firſt ſlaying the inha<g ref="char:EOLhyphen"/>bitants of <hi>Sichem</hi> without juſt cauſe, the<g ref="char:cmbAbbrStroke">̄</g> fall. ing upon the ſlain and ſpoyling the Citty, was de<g ref="char:EOLhyphen"/>teſtable both for the <hi>Cruelty</hi> and <hi>Rapine</hi> in it, <hi>Gen.</hi> 34.26. this was a <hi>Cruel plunder; Plunder</hi> is a new word, but I co<g ref="char:cmbAbbrStroke">̄</g>ceive it expreſſeth an old way of injuſtice, implies ſuch ſpoyles as are unlawful<g ref="char:EOLhyphen"/>ly taken. In the taking of <hi>Spoyles,</hi> the perſons, from whom they are taken, and the manner of ta<g ref="char:EOLhyphen"/>king them, are conſiderable.</p>
+               <p>Firſt, they are lawfully taken from a lawfull e<g ref="char:EOLhyphen"/>nemy. For ſuch an one being conquered forfeits life and goods to the Conqueror, <hi>He is ſervant to him of whom he is overcome,</hi> as our Saviour ſpeaks, that is, he is altogether at his diſpoſing; and in the Parable, when the ſtrong man, that keepes his Palace or Fort, is vanquiſhed by a ſtronger then he, he is ſpoiled not only of his Armour but of his goods too. <hi>Luk.</hi> 11.22.</p>
+               <p>Secondly, in the manner of taking the <hi>Spoyle</hi> there is a difference between the <hi>Spoyle</hi> of the
+<pb n="44" facs="tcp:119378:24"/> Field, and of a Town or Country; for though the ſpoyling of the enimy taken or dead in the Field be permitted promiſcuouſly to the Souldier, as e<g ref="char:EOLhyphen"/>very one of <hi>Gideons</hi> Souldiers had the earerings of his prey taken from the defeated Iſhmaelites, <hi>Iud.</hi> 8.24. yet is the ſpoyling of a Town or Coun<g ref="char:EOLhyphen"/>try to be orderly performed by command: it be<g ref="char:EOLhyphen"/>ing more to the preſervation of juſtice, and bene<g ref="char:EOLhyphen"/>fit of the Souldiers, to have the ſpoyle of a Towne orderly taken and divided among them, then that they ſhould fly tumultuarily upon it, and every one be his own carver.</p>
+               <p>We read not that the <hi>Spoyles</hi> allowed in Scri<g ref="char:EOLhyphen"/>pture were at the pleaſure of the Multitude, but orderly performed, both for the taking of them and the dividing or diſpoſing of them; The <hi>Mi<g ref="char:EOLhyphen"/>dianites</hi> are ſpoyled, and all the ſpoyle and the prey is brought to <hi>Moſes</hi> and <hi>Eleazer,</hi> and ſo di<g ref="char:EOLhyphen"/>vided, <hi>Num.</hi> 31.12. When <hi>Rabbah</hi> was taken by <hi>David,</hi> it is ſaid, <hi>He brought forth the spoyle of the Citty in great abundance,</hi> 2. <hi>Sam.</hi> 12.30. When <hi>Ioſhuah</hi> ſent home the <hi>Reubenites</hi> from the warre, he bids them, <hi>Divide the ſpoyle of your e<g ref="char:EOLhyphen"/>nimies with your brethren, Ioſ.</hi> 22.8. And when ſome that went down with <hi>David</hi> againſt the <hi>Amalekites</hi> grudged that any of the ſpoyle ſhould be given to them that were left behind, <hi>David</hi> replyed, <hi>Who will hearken to you in this, but as his part is that goeth down to the Battell, ſo ſhall
+<pb n="45" facs="tcp:119378:24"/> his part be that tarrieth by the ſtuffe, they ſhall part alike, and he made it a ſtatute for Iſrael unto this day.</hi> 1. <hi>Sam.</hi> 30.22,24,25. and it were well it were better obſerved at this day, for who will <hi>tarry by the ſtuffe</hi> willingly, or keep the guard carefully, if not provided for by the orderly di<g ref="char:EOLhyphen"/>ſpoſing of the Spoyle.</p>
+               <p>The <hi>Iſraelites</hi> having taken and ſlain the men of <hi>Judah,</hi> with much cruelty, are reproved for it by the Prophet, whereupon they took thoſe of <hi>Iudah</hi> which they had as Captives or Priſoners, and with the Spoyle cloathed and fed and ſhod them. 2. <hi>Chro.</hi> 28.15. which as it forbids cruelty againſt an enimy, and makes him ſometimes the object of mercy, ſo doth it much more condemne the injuſtice of ſome Commanders, that engroſſe the ſpoyle to themſelves, and make private be<g ref="char:EOLhyphen"/>nefit of that, which is or ſhould be appoynted for the cloathing and reliefe of their own poor Soul<g ref="char:EOLhyphen"/>diers. I defire you to remember what <hi>Iacob</hi> ſaid to his ſons returning with the ſpoyles of <hi>Sichem, Ye have troubled me, to make me ſtink among the inhabitants of the Land, Gen.</hi> 34.30. and accor<g ref="char:EOLhyphen"/>dingly to conſider what diſſervice you doe His Majeſty, if under colour of ſpoyling Rebellious enimies, his peaceable Subjects be plundered by you.</p>
+               <p>Finally, when I conſider what fucceſſe it has pleaſed God to give His Majeſtis forces, and can<g ref="char:EOLhyphen"/>not
+<pb n="46" facs="tcp:119378:25"/> find any reaſon of it, either in the abundance of ammunition, or the number of His men, or in the holineſſe of their lives, and their care of ſer<g ref="char:EOLhyphen"/>ving God; I muſt conclude, and ſo ought you, that the Lord doth thereby ſhew he juſtifieth the cauſe you defend, and doth invite you ſtill to ac<g ref="char:EOLhyphen"/>kuowledge him in all your enterprizes, and to uſe the Victory he gives you, with moderation and juſtice, and to be more carefull of his ſervice and worſhip.</p>
+               <p>When I ſpoke above of Prayer, I ſhewed how neceſſary it is for you, becauſe thereby you return unto God his Worſhip, and obtain from him protection and any thing you need; alſo how much ſpare time you have, that might be imploy<g ref="char:EOLhyphen"/>ed in devotion; and though the ſervice be ſud<g ref="char:EOLhyphen"/>dain many times upon which you are comman<g ref="char:EOLhyphen"/>ded, yet may the heart be lifted up in praver, ac<g ref="char:EOLhyphen"/>cording to the ſtraites of times and occaſions; I now come to give you patternes for the practice of this in ſuch <hi>ſet and daily</hi> devotion, or ſuch <hi>occa<g ref="char:EOLhyphen"/>ſionall</hi> devotion as may and will concerne you.</p>
+            </div>
+            <div type="devotions">
+               <div type="devotion">
+                  <head>The Souldiers private Devotion.</head>
+                  <p>EVery day requires of you the performance of your duty to God, which that you may doe more fitly in relation to the ſervice you are en<g ref="char:EOLhyphen"/>gaged in, I deſire you firſt to conſider, how juſtly
+<pb n="47" facs="tcp:119378:25"/> your King may ſay in the Pſalmiſts words.</p>
+                  <floatingText xml:lang="eng" type="Psalm">
+                     <body>
+                        <q>
+                           <p>Be mercifull to me, O God, for man goeth about to devour me, he is daily fighting and troubling me; mine enimies are daily in hand to ſwallow me up, for they are many, O thou moſt High. <bibl>Pſal. 56.1,2.</bibl>
+                           </p>
+                        </q>
+                        <q>
+                           <p>They daily miſtake my words, and all that they imagine is to doe me evill; for they hold together, and keep themſelves cloſe and mark my ſteps, <bibl>ibid. v. 5. 6.</bibl>
+                           </p>
+                        </q>
+                        <q>
+                           <p>They runne and prepare themſelves without my fault, ariſe thou therefore to help me and behold. <bibl>Pſal. 59.4.</bibl>
+                           </p>
+                        </q>
+                        <q>
+                           <p>Deſtroy their tongues, O Lord, and divide them, for I have eſpyed unrighteouſneſſe and ſtrife in the Citty: day and night they goe about within the Walles thereof, miſchief alſo and ſorrow are in the midſt of it. <bibl>Pſal. 55.9.10.</bibl>
+                           </p>
+                        </q>
+                        <q>
+                           <p>Shall they eſcape for their wickedneſſe? thou, O God, in thy diſpleaſure ſhalt caſt them downe, <bibl>Pſal. 56.7.</bibl>
+                           </p>
+                        </q>
+                        <q>
+                           <p>Thou telleſt my flittings, put my teares in thy bottle: are not theſe things written in thy book? <bibl>v. 8.</bibl>
+                           </p>
+                        </q>
+                        <q>
+                           <p>Hide me from the gathering together of the fro<g ref="char:EOLhyphen"/>ward, and from the inſurrection of wicked doers, <bibl>Pſal. 64.2.</bibl>
+                           </p>
+                        </q>
+                        <q>
+                           <p>For under the ſhadow of thy wings ſhall be my
+<pb n="48" facs="tcp:119378:26"/> refuge, till this Tyranny be overpaſt, <bibl>Pſ. 57.1.</bibl>
+                           </p>
+                        </q>
+                        <q>
+                           <p>J will call unto the moſt high God, even unto the God, that ſhall performe the Cauſe, which I have in hand. <bibl>v. 2.</bibl>
+                           </p>
+                        </q>
+                        <q>
+                           <p>He ſhall ſend from Heaven and ſave me. <bibl>v. 3.</bibl>
+                           </p>
+                        </q>
+                        <q>
+                           <p>Yea his right hand ſhall hold me up, and his lo<g ref="char:EOLhyphen"/>ving correction ſhall make me great, <bibl>Pſ. 18.35.</bibl>
+                           </p>
+                        </q>
+                        <q>
+                           <p>Let them rejoyce and be glad, that favour my righteous dealing, yea let them ſay, bleſſed be the name of the Lord, that hath pleaſure in the prospe<g ref="char:EOLhyphen"/>rity of his ſervant. <bibl>Pſ. 35.27.</bibl>
+                           </p>
+                        </q>
+                     </body>
+                  </floatingText>
+                  <p>Then cannot you but think, you are invited to apply unto God in the behalfe of your King, your ſelves, and your Cauſe, as followeth.</p>
+                  <floatingText xml:lang="eng" type="Psalm">
+                     <body>
+                        <head>The PSALME.</head>
+                        <q>
+                           <p>PLead thou our cauſe, O Lord, with them that ſtrive with us, and fight thou againſt them that fight againſt us. <bibl>Pſ. 35.1.</bibl>
+                           </p>
+                        </q>
+                        <q>
+                           <p>Lay hand on ſhield and buckler, and ſtand up to help us. <bibl>v. 2.</bibl>
+                           </p>
+                        </q>
+                        <q>
+                           <p>Help us, O God of our Salvation, for the glory of thy name, O deliver us, and be mercifull unto out ſinnes for thy Names ſake. <bibl>Pſ. 79.9.</bibl>
+                           </p>
+                        </q>
+                        <q>
+                           <p>Lead us in the right way becauſe of our Enimies, and deliver us not over to the will of our Adverſa<g ref="char:EOLhyphen"/>ries, for there are falſe witneſſes riſen up againſt us, and ſuch as ſpeak wrong, <bibl>Pſ. 27.14.</bibl>
+                           </p>
+                        </q>
+                        <pb n="49" facs="tcp:119378:26"/>
+                        <q>
+                           <p>Remember, O Lord, the rebuke that thy ſer<g ref="char:EOLhyphen"/>vants have, and how thine Enemies have ſlandered the footſteps of thine Annoynted, <bibl>Pſal. 89.49.</bibl>
+                           </p>
+                        </q>
+                        <q>
+                           <p>Stand up, O Lord of Hoaſts, and be not merci<g ref="char:EOLhyphen"/>full unto them that offend of malitious wickednes, <bibl>Pſal. 59.5.</bibl>
+                           </p>
+                        </q>
+                        <q>
+                           <p>For the ſinne of their mouth, and for the words of their lips, they ſhall be taken in their pride; for why! their preaching is of curſing and lyes, <bibl>v. 12.</bibl>
+                           </p>
+                        </q>
+                        <q>
+                           <p>Oh turne not away the face of thine Annointed, <bibl>Pſal. 132.</bibl> Oh prepare thy loving mercy and faith<g ref="char:EOLhyphen"/>fulnes, that they may preſerve Him, <bibl>Pſal. 61.7.</bibl>
+                           </p>
+                        </q>
+                        <q>
+                           <p>Stretch forth thy hand upon the furiouſnes of His Enemies, and let thy right hand ſave Him, <bibl>Pſ. 138.7.</bibl>
+                           </p>
+                        </q>
+                        <q>
+                           <p>Yea let Them be cloathed with ſhame, but upon Himſelfe let His Crowne flouriſh, <bibl>Pſa. 132.19.</bibl>
+                           </p>
+                        </q>
+                        <q>
+                           <p>So ſhall the King rejoyce in God, and the mouth of them that speakes lyes ſhall be ſtopped, <bibl>Pſ. 63.12.</bibl>
+                           </p>
+                        </q>
+                        <q>
+                           <p>Yea their owne tongues ſhall make them fall, inſomuch that they which ſee it, ſhall ſay, This hath God done; for they ſhall perceive, it is his worke, <bibl>Pſa. 64.8,9.</bibl>
+                           </p>
+                        </q>
+                     </body>
+                  </floatingText>
+                  <floatingText xml:lang="eng" type="prayer">
+                     <body>
+                        <head>The Prayer for the Morning.</head>
+                        <p>O Almighty Lord God, I bleſſe thy Name, for that thou haſt kept me this night paſt from
+<pb n="50" facs="tcp:119378:27"/> all dangers, notwithſtanding all my ſinnes and ill deſerts, I beſeech thee to pardon them all in Ieſus Chriſt, and to guide me this day by thy Grace, that I fall not into any preſumptuous ſinnes, but may have thee alwayes before mine eyes to feare thee in all my wayes. And ſeeing nothing is ſafe without thy defence, or prosperous without thy bleſſing, keep (I beſeech thee) and defend Our gratious King, protect Him in His Perſon, bleſſe Him in his Counſells, prosper Him in his Juſt Deſignes; Bleſſe alſo and protect all his Armies, <g ref="char:V">Ʋ</g>s eſpeci<g ref="char:EOLhyphen"/>cially that attend here to ſerve Him under thee, who art the Everliving God; Grant this for Je<g ref="char:EOLhyphen"/>ſus Chriſt our Lord and Saviour; AMEN.</p>
+                     </body>
+                  </floatingText>
+                  <floatingText xml:lang="eng" type="prayer">
+                     <body>
+                        <head>The Prayer for the Evening.</head>
+                        <p>O Almighty Lord God, which haſt made the out goings of the Morning and of the Eve<g ref="char:EOLhyphen"/>ning to praiſe thee, bleſſed be thy Name, for that thou haſt kept and preſerved me this day; I ac<g ref="char:EOLhyphen"/>knowledge my manifold ſinnes and tranſgreſſions, in thought, word and deed, committed againſt thee; beſeeching thee to pardon what I have done amiſſe for thy mercyes ſake in Jeſus Chriſt. Defend, O Lord, the Kings <hi>Majeſty</hi> and His Army, watch thou over us, and keepe us all from the dangers of this night, through Jeſus Chriſt our only Lord and Saviour, AMEN.</p>
+                     </body>
+                  </floatingText>
+               </div>
+               <div type="devotion">
+                  <pb n="51" facs="tcp:119378:27"/>
+                  <head>Occaſionall Devotion.</head>
+                  <p>AS every day requires the performance of your Duty to God, ſo doth every ſpeciall occaſion, in order to the Battell and the Iſſue thereof, call you to ſome Act of Devotion, which may be performed either more ſolemnely or ab<g ref="char:EOLhyphen"/>ruptly according to the ſtraits of time.</p>
+                  <p>We have King <hi>Aſa's</hi> prayer when he went out againſt the <hi>Ethiopians</hi> 2. <hi>Chr.</hi> 14.11. and King <hi>Iehoſaphats</hi> upon the like occaſion, 2. <hi>Chr.</hi> 20. <hi>v.</hi> 6. Now as it belongs to Authority, and is the duty of every <hi>General,</hi> to command the publique and ſolemne performance of this duty before the joyning of Battell, if the time will permit; ſo doth it concerne every Souldier to lift up his heart to God in order to the occaſion, and performe this duty in ſome ſort anſwerable to the ſtraits of time.</p>
+                  <p>And therefore be your ſervice and imploy<g ref="char:EOLhyphen"/>ment never ſo ſuddain and urgent, yet will it ad<g ref="char:EOLhyphen"/>mit the private ejaculations of the heart; be you in a March, or Motion towards the Enemy, the mind can move faſter towards heaven; or be you in the very Encounter, the ſuddain thoughts and deſires, darted from the Soule, are more ready then the diſchargings of your Gunns, more quick then fired Powder or flying Bullet.</p>
+                  <pb n="52" facs="tcp:119378:28"/>
+                  <p>
+                     <hi>Moſes</hi> being in a ſtrait between the Red-Sea, and the purſuing Enemie, is ſaid to cry unto the Lord, yet we read not that he ſpeak any thing, <hi>Exod.</hi> 14.15. it was the cry of the heart, and that alſo ſounds in Gods eares. <hi>Iehoſaphat</hi> when op<g ref="char:EOLhyphen"/>preſſed in battel by the <hi>Syrians</hi> cryed unto the Lord, <hi>and God moved them to depart from him,</hi> 2. <hi>Chr.</hi> 18.31. So the men of <hi>Iudah, when the battel was before and behind them, cryed unto the Lord,</hi> 2. <hi>Chr.</hi> 13.14.</p>
+                  <p>The good Emperour <hi>Theodoſius</hi> in the like danger prayed, and was delivered, the darts and arrowes that came from the Enemie being by a mighty wind borne back again upon them. And we read of the Chriſtian Legion, which ſerving under <hi>Antoninus</hi> an heathen Emperour, did by prayer ſave the whole army from the neceſſity of periſhing either by drought or by the Enemy; for out of the ſame cloud at their prayer did iſſue Raine to refreſh the Army, and Thunder and Lightning to ſtrike and confound the Enemy.</p>
+                  <p>For direction of your thoughts and deſires in order to the Battell, take what followeth.</p>
+                  <floatingText xml:lang="eng" type="Psalm">
+                     <body>
+                        <head>The PSALME.</head>
+                        <q>
+                           <p>THou art our King, O God, ſend help unto <bibl>Ia<g ref="char:EOLhyphen"/>cob, Pſal. 44. v. 5.</bibl>
+                           </p>
+                        </q>
+                        <q>
+                           <p>Through thee will we overthrow our Enemies,
+<pb n="53" facs="tcp:119378:28"/> and in thy Name will we tread them under, that riſe up againſt us, <bibl>v. 6.</bibl>
+                           </p>
+                        </q>
+                        <q>
+                           <p>For we will not truſt in our Bow, it is not our ſword that ſhall help us, <bibl>v. 7.</bibl>
+                           </p>
+                        </q>
+                        <q>
+                           <p>There is no King can be ſaved by the multitude of an Hoaſt, neither is any man delivered by much ſtrength, <bibl>Pſal. 33.15.</bibl>
+                           </p>
+                        </q>
+                        <q>
+                           <p>But it is thou that ſavest us from our Enemies, and putteſt them to confuſion that hate us, <bibl>Pſal. 44.8.</bibl>
+                           </p>
+                        </q>
+                        <q>
+                           <p>Through God will we doe great Acts, for it is he that ſhall tread downe our Enemies, <bibl>Pſal. 60.12.</bibl>
+                           </p>
+                        </q>
+                     </body>
+                  </floatingText>
+                  <floatingText xml:lang="eng" type="prayer">
+                     <body>
+                        <head>The Prayer.</head>
+                        <p>O Almighty God, King of Kings, and Lord of Hoaſts, it is nothing with thee to helpe whether with many, or with them that have no power, Helpe us O Lord, and deliver us, we hum<g ref="char:EOLhyphen"/>bly beſeech thee, from our Enemies; that we being armed with thy defence, may be preſerved to glori<g ref="char:EOLhyphen"/>fy thee which art the giver of all Victory, through the merits of thy Sonne and our Saviour Ieſus Chriſt. AMEN.</p>
+                     </body>
+                  </floatingText>
+               </div>
+               <div type="devotion">
+                  <head>
+                     <g ref="char:V">Ʋ</g>pon ill Succeſſe.</head>
+                  <p>WE find <hi>Ioſua</hi> humbling himſelfe upon the defeat before <hi>Ai, Ioſ.</hi> 7.6. and the <hi>Iſraelites</hi>
+                     <pb n="54" facs="tcp:119378:29"/> applying to God in faſting and prayer, when they were ſmitten before <hi>Benjamin, Iud.</hi> 20. upon which occaſion the <hi>Pſalmiſt</hi> will tell you what thoughts and deſires ſhould poſſeſſe your hearts.</p>
+                  <floatingText xml:lang="eng" type="Psalm">
+                     <body>
+                        <head>The PSALME.</head>
+                        <q>
+                           <p>O God thou haſt caſt us out and ſcattered us, thou haſt alſo been displeaſed; O turn thee unto us again, <bibl>Pſ. 60.1.</bibl>
+                           </p>
+                        </q>
+                        <q>
+                           <p>Thou ſtandeſt a farre off, and goeſt not forth with our Armies. <bibl>Pſ. 44.10.</bibl>
+                           </p>
+                        </q>
+                        <q>
+                           <p>Thou makeſt us to turne our backs upon our eni<g ref="char:EOLhyphen"/>mies, ſo that they which hate us, spoyle our goods. <bibl>v. 11.</bibl>
+                           </p>
+                        </q>
+                        <q>
+                           <p>And though all this be come upon us yet will we not forget thee, nor behave our ſelves frowardly in thy Covenant. <bibl>v. 18.</bibl>
+                           </p>
+                        </q>
+                        <q>
+                           <p>Turn us again, O Lord God of Hoaſts, ſhew us the light of thy countenance, and we ſhall be whole. <bibl>Pſ. 80.19.</bibl>
+                           </p>
+                        </q>
+                        <q>
+                           <p>Oh be thou our help in trouble, for vain is the help of man. <bibl>Pſ. 60.11.</bibl>
+                           </p>
+                        </q>
+                        <q>
+                           <p>Salvation belongeth unto the Lord, and his bleſ<g ref="char:EOLhyphen"/>ſing ſhall be upon his People. <bibl>Pſ. 3.8.</bibl>
+                           </p>
+                        </q>
+                     </body>
+                  </floatingText>
+                  <floatingText xml:lang="eng" type="prayer">
+                     <body>
+                        <pb n="55" facs="tcp:119378:29"/>
+                        <head>The Prayer.</head>
+                        <p>O Moſt mercifull Lord God, we acknow<g ref="char:EOLhyphen"/>ledge we have not feared thee, nor ſerved thee as we ought, and therefore thou haſt ſmit<g ref="char:EOLhyphen"/>tenus that we may know thee, turne us ô Lord unto thee, and be thou mercifull unto us, deliver us from our Enimies, and ſave us for thy mercy ſake in Ieſus Chriſt. AMEN.</p>
+                     </body>
+                  </floatingText>
+               </div>
+               <div type="devotion">
+                  <head>AFTER VICTORY;</head>
+                  <floatingText xml:lang="eng" type="Psalm">
+                     <body>
+                        <head>The Pſalme.</head>
+                        <q>
+                           <p>VVE will magnify thee, O Lord, for thou haſt ſet us up, and not made our foes to triumph over us. <bibl>Pſ. 30.1.</bibl>
+                           </p>
+                        </q>
+                        <q>
+                           <p>Thou art the God of whom cometh ſalvation, God is the Lord by whom we eſcape death. <bibl>Pſal. 68.20.</bibl>
+                           </p>
+                        </q>
+                        <q>
+                           <p>Thou haſt ſent forth ſtrength, eſtabliſh the thing, O God, that thou haſt wrought in us. <bibl>v. 28.</bibl>
+                           </p>
+                        </q>
+                        <q>
+                           <p>Thou haſt girded us with ſtrength of Warre, <bibl>Pſ. 18.</bibl> and covered our head in the day of Battell, <bibl>Pſ. 140.</bibl> and compaſſed us about with ſongs of delive<g ref="char:EOLhyphen"/>rance, <bibl>Pſ. 32.</bibl>
+                           </p>
+                        </q>
+                        <q>
+                           <p>God is our refuge and ſtrength, a very preſent help in time of trouble; therefore will we not fear though the Earth be moved, and Waters rage and ſwell. <bibl>Pſ. 46.1.2.</bibl>
+                           </p>
+                        </q>
+                        <pb n="56" facs="tcp:119378:30"/>
+                        <q>
+                           <p>For the Lord is King, be the people never ſo un<g ref="char:EOLhyphen"/>patient; he ſitteth between the Cherubins, be the Earth never ſo unquiet, <bibl>Pſal. 99.1.</bibl>
+                           </p>
+                        </q>
+                        <q>
+                           <p>He ſtilleth the raging of the Sea, and the noyſe of his waves, and the Madneſſe of the People, <bibl>Pſ. 65.7.</bibl>
+                           </p>
+                        </q>
+                        <q>
+                           <p>He hath broken the arrowes of the bow, the ſhield, the ſword, and the speare, <bibl>Pſ. 76 3.</bibl>
+                           </p>
+                        </q>
+                        <q>
+                           <p>At thy rebuke, O God of Iacob, both the Char<gap reason="illegible" resp="#OXF" extent="1+ letters">
+                                 <desc>•…</desc>
+                              </gap> and Horſe are falne, <bibl>v. 6.</bibl>
+                           </p>
+                        </q>
+                        <q>
+                           <p>The fiercenes of man ſhall turne to thy praiſe, and the fierceneſſe of them ſhalt thou refraine, <bibl>v. 10.</bibl>
+                           </p>
+                        </q>
+                        <q>
+                           <p>Praiſe the Lord with a new ſong, for he hath done marvailous things, with his own right hand and his holy arme hath he got himſelfe the <g ref="char:V">Ʋ</g>ictory. <bibl>Pſal. 98.1,2.</bibl>
+                           </p>
+                        </q>
+                     </body>
+                  </floatingText>
+                  <floatingText xml:lang="eng" type="vows">
+                     <body>
+                        <head>The Vote of the People for Peace.</head>
+                        <q>
+                           <p>O God wherefore art thou abſent from us ſo long? Why is thy wrath ſo hot againſt the ſheep of thy Paſture, <bibl>Pſ. 74.1.</bibl>
+                           </p>
+                        </q>
+                        <q>
+                           <p>Thou haſt moved the Land and divided it, heal the ſores thereof, for it ſhaketh. <bibl>Pſ. 6.2.</bibl>
+                           </p>
+                        </q>
+                        <q>
+                           <p>Thou hast ſhewed thy People heavy things, thou haſt given us a drink of deadly wine. <bibl>v. 3.</bibl>
+                           </p>
+                        </q>
+                        <q>
+                           <p>Thou haſt proved us, thou haſt brought us into the ſuare, and laid trouble upon our Loynes; thou ſuffereſt men to ride over our heads, <bibl>pſ. 66.10,11.</bibl>
+                           </p>
+                        </q>
+                        <pb n="57" facs="tcp:119378:30"/>
+                        <q>
+                           <p>The high Wayes are unoccupied, the Travel<g ref="char:EOLhyphen"/>lors walk through bywayes, and the Inhabitants of the Villages ceaſe, <bibl>Iudg. 5.6.</bibl>
+                           </p>
+                        </q>
+                        <q>
+                           <p>For all the Earth is full of darkneſſe and cruell habitations, <bibl>pſ. 74.21.</bibl>
+                           </p>
+                        </q>
+                        <q>
+                           <p>Vp Lord, why ſleepeſt thou? awake and be not abſent from us for ever, <bibl>pſ. 44.23.</bibl>
+                           </p>
+                        </q>
+                        <q>
+                           <p>O remember not our old ſinnes, but have mercy upon us, and that ſoon, for we are come to great miſery, <bibl>pſ. 79.8.</bibl>
+                           </p>
+                        </q>
+                        <q>
+                           <p>Turn thee again at laſt, and be gratious unto thy ſervants, <bibl>pſ. 90.13.</bibl>
+                           </p>
+                        </q>
+                        <q>
+                           <p>Comfort us now after the time that thou haſt plagued us, and for the years wherein we have ſuf<g ref="char:EOLhyphen"/>fered adverſity. <bibl>v. 15.</bibl>
+                           </p>
+                        </q>
+                        <q>
+                           <p>Oh that ſalvation were given unto Iſrael out of Sion, oh that the Lord would deliver his people out of Captivity, then ſhould <hi>Iacob</hi> rejoyce and <hi>Iſrael</hi> ſhould be right glad, <bibl>pſ. 53.7,8.</bibl>
+                           </p>
+                        </q>
+                        <q>
+                           <p>He is the God that maketh men to be of one mind in an houſe, and bringeth the priſoners out of Cap<g ref="char:EOLhyphen"/>tivity, <bibl>pſ. 68.6.</bibl>
+                           </p>
+                        </q>
+                        <q>
+                           <p>He maketh VVarres to ceaſe, he breaketh the bow, and knappeth the ſpeare in ſunder, <bibl>pſ. 46.9.</bibl>
+                           </p>
+                        </q>
+                        <q>
+                           <p>The Lord ſhall give ſtrength to his People, the Lord ſhall give his People the bleſſing of Peace, <bibl>pſ. 29.10.</bibl>
+                           </p>
+                        </q>
+                        <q>
+                           <p>That our Garners may be full, and our ſheep bring forth thouſands in our streets, <bibl>pſ. 144.13.</bibl>
+                           </p>
+                        </q>
+                        <pb n="58" facs="tcp:119378:31"/>
+                        <q>
+                           <p>That our Oxen may be ſtrong to Labour, tha<gap reason="illegible" resp="#OXF" extent="1 letter">
+                                 <desc>•</desc>
+                              </gap> there be no decay, no leading into Captivity, and n<gap reason="illegible" resp="#OXF" extent="1 letter">
+                                 <desc>•</desc>
+                              </gap> complaining in our ſtreets, <bibl>v. 14.</bibl>
+                           </p>
+                        </q>
+                        <q>
+                           <p>Happy are the People that be in ſuch a caſe, yea<gap reason="illegible" resp="#OXF" extent="1 letter">
+                                 <desc>•</desc>
+                              </gap> bleſſed are the People, which have the Lord fo<gap reason="illegible" resp="#OXF" extent="1 letter">
+                                 <desc>•</desc>
+                              </gap> their God, <bibl>v. 15.</bibl>
+                           </p>
+                        </q>
+                     </body>
+                  </floatingText>
+               </div>
+            </div>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
